@@ -11,6 +11,7 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "geojson-geometries-lookup": "^0.5.0",
     "superagent": "^6.1.0"

@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 
 const request = require('superagent');
 const apiKey = process.env['WINNIPEG_TRANSIT_API_KEY'] || 'API_KEY';
@@ -8,6 +9,8 @@ const GeoJsonGeometriesLookup = require('geojson-geometries-lookup');
 const fs = require('fs');
 const wards = JSON.parse(fs.readFileSync('./data/wards.geojson'));
 const wardLookup = new GeoJsonGeometriesLookup(wards);
+
+app.use(cors());
 
 app.get('/:query', async ({ params: query }, res) => {
   const response = await request
