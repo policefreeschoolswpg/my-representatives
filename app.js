@@ -14,11 +14,11 @@ app.use(cors());
 app.set('etag', false);
 
 app.get('/:query', async ({ params: query }, res) => {
-  const response = await request
+  const geoResponse = await request
     .get(`https://maps.googleapis.com/maps/api/geocode/json?components=country:CA|locality:Winnipeg&address=${query.query}&key=${apiKey}`)
     .set('accept', 'json');
 
-  const location = JSON.parse(response.text).results[0];
+  const location = JSON.parse(geoResponse.text).results[0];
   const address = `${location.formatted_address.split(',')[0]}`;
 
   const centre = location.geometry.location;
@@ -27,17 +27,23 @@ app.get('/:query', async ({ params: query }, res) => {
     coordinates: [ centre.lng, centre.lat ]
   };
 
-  const containers = wardLookup.getContainers(point);
-  const ward = containers.features[0];
-  const properties = ward.properties;
-
-  res.json({
+  const response = {
     address,
     latitude: `${centre.lat}`,
     longitude: `${centre.lng}`,
-    division: properties.division,
-    ward: properties.ward
-  });
+  };
+
+  const containers = wardLookup.getContainers(point);
+  const ward = containers.features[0];
+
+  if (ward) {
+    const properties = ward.properties;
+
+    response.division = properties.division;
+    response.ward = properties.ward;
+  }
+
+  res.json(response);
 });
 
 module.exports = app;

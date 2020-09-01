@@ -83,7 +83,96 @@ nock('https://maps.googleapis.com')
        }
     ],
     "status" : "OK"
- });
+ })
+ .get('/maps/api/geocode/json?address=321%20main&components=country:CA|locality:Winnipeg&key=API_KEY')
+ .reply(200, {
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "321",
+          "short_name": "321",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Main Street",
+          "short_name": "Main St",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Steinbach",
+          "short_name": "Steinbach",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Division No. 2",
+          "short_name": "Division No. 2",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Manitoba",
+          "short_name": "MB",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "R5G 1Z2",
+          "short_name": "R5G 1Z2",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "321 Main St, Steinbach, MB R5G 1Z2, Canada",
+      "geometry": {
+        "location": {
+          "lat": 49.52597129999999,
+          "lng": -96.68377679999999
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 49.52732028029149,
+            "lng": -96.6824278197085
+          },
+          "southwest": {
+            "lat": 49.5246223197085,
+            "lng": -96.6851257802915
+          }
+        }
+      },
+      "place_id": "ChIJyR6Oe7k1wFIRtBERDeFLjvg",
+      "plus_code": {
+        "compound_code": "G8G8+9F Steinbach, MB, Canada",
+        "global_code": "86X5G8G8+9F"
+      },
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "status": "OK"
+});
 
 it('responds to a location query', async done => {
   const response = await request.get('/510 main');
@@ -94,6 +183,16 @@ it('responds to a location query', async done => {
 
   expect(response.body.division).toBe('Winnipeg');
   expect(response.body.ward).toBe('6');
+
+  done();
+});
+
+it('handles when there are no matching wards', async done => {
+  const response = await request.get('/321 main');
+
+  expect(response.body.address).toBe('321 Main St');
+  expect(response.body.division).toBeUndefined();
+  expect(response.body.ward).toBeUndefined();
 
   done();
 });
