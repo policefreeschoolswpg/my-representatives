@@ -11,6 +11,7 @@ const wards = JSON.parse(fs.readFileSync('./data/wards.geojson'));
 const wardLookup = new GeoJsonGeometriesLookup(wards);
 
 app.use(cors());
+app.set('etag', false);
 
 app.get('/:query', async ({ params: query }, res) => {
   const response = await request
