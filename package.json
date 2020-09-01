@@ -11,10 +11,12 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "superagent": "^6.1.0"
   },
   "devDependencies": {
     "jest": "^26.4.2",
+    "nock": "^13.0.4",
     "supertest": "^4.0.2"
   }
 }
