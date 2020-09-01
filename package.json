@@ -1,0 +1,20 @@
+{
+  "name": "my-trustees",
+  "version": "1.0.0",
+  "description": "Find school trustees in Winnipeg",
+  "main": "app.js",
+  "author": "Buck Doyle",
+  "license": "MIT",
+  "scripts": {
+    "start": "node start.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "supertest": "^4.0.2"
+  }
+}
