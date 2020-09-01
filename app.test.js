@@ -10,5 +10,7 @@ nock('https://api.winnipegtransit.com')
 it('responds to a location query', async done => {
   const response = await request.get('/510 main');
   expect(response.body.address).toBe('510 Main Street');
+  expect(response.body.latitude).toBe('49.90004');
+  expect(response.body.longitude).toBe('-97.1389');
   done();
 });

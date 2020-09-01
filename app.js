@@ -12,7 +12,9 @@ app.get('/:query', async ({ params: query }, res) => {
   const location = JSON.parse(response.text).locations[0];
   const address = `${location['street-number']} ${location.street.name}`;
 
-  res.json({ address });
+  const centre = location.centre.geographic;
+
+  res.json({ address, latitude: centre.latitude, longitude: centre.longitude });
 });
 
 module.exports = app;
