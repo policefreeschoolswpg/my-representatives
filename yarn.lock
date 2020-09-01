@@ -472,6 +472,60 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@turf/bbox@6.x", "@turf/bbox@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@turf/bbox/-/bbox-6.0.1.tgz#b966075771475940ee1c16be2a12cf389e6e923a"
+  integrity sha512-EGgaRLettBG25Iyx7VyUINsPpVj1x3nFQFiGS3ER8KCI1MximzNLsam3eXRabqQDjyAKyAE1bJ4EZEpGvspQxw==
+  dependencies:
+    "@turf/helpers" "6.x"
+    "@turf/meta" "6.x"
+
+"@turf/boolean-contains@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@turf/boolean-contains/-/boolean-contains-6.0.1.tgz#c3c583215fc5bda47ede51cf52d735ffdc1006a5"
+  integrity sha512-usAexEdWu7dV43paowGSFEM0PljexnlOuj09HF/VDZwO3FKelwUovF2ymetYatuG7KcIYcexeNEkQ5qQnGExlw==
+  dependencies:
+    "@turf/bbox" "6.x"
+    "@turf/boolean-point-in-polygon" "6.x"
+    "@turf/boolean-point-on-line" "6.x"
+    "@turf/helpers" "6.x"
+    "@turf/invariant" "6.x"
+
+"@turf/boolean-point-in-polygon@6.x":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@turf/boolean-point-in-polygon/-/boolean-point-in-polygon-6.0.1.tgz#5836677afd77d2ee391af0056a0c29b660edfa32"
+  integrity sha512-FKLOZ124vkJhjzNSDcqpwp2NvfnsbYoUOt5iAE7uskt4svix5hcjIEgX9sELFTJpbLGsD1mUbKdfns8tZxcMNg==
+  dependencies:
+    "@turf/helpers" "6.x"
+    "@turf/invariant" "6.x"
+
+"@turf/boolean-point-on-line@6.x":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@turf/boolean-point-on-line/-/boolean-point-on-line-6.0.1.tgz#d943c242a5fdcde03f8ad0221750fd1aacf06223"
+  integrity sha512-Vl724Tzh4CF/13kgblOAQnMcHagromCP1EfyJ9G/8SxpSoTYeY2G6FmmcpbW51GqKxC7xgM9+Pck50dun7oYkg==
+  dependencies:
+    "@turf/helpers" "6.x"
+    "@turf/invariant" "6.x"
+
+"@turf/helpers@6.x":
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/@turf/helpers/-/helpers-6.1.4.tgz#d6fd7ebe6782dd9c87dca5559bda5c48ae4c3836"
+  integrity sha512-vJvrdOZy1ngC7r3MDA7zIGSoIgyrkWcGnNIEaqn/APmw+bVLF2gAW7HIsdTxd12s5wQMqEpqIQrmrbRRZ0xC7g==
+
+"@turf/invariant@6.x":
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/@turf/invariant/-/invariant-6.1.2.tgz#6013ed6219f9ac2edada9b31e1dfa5918eb0a2f7"
+  integrity sha512-WU08Ph8j0J2jVGlQCKChXoCtI50BB3yEH21V++V0T4cR1T27HKCxkehV2sYMwTierfMBgjwSwDIsxnR4/2mWXg==
+  dependencies:
+    "@turf/helpers" "6.x"
+
+"@turf/meta@6.x":
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/@turf/meta/-/meta-6.0.2.tgz#eb92951126d24a613ac1b7b99d733fcc20fd30cf"
+  integrity sha512-VA7HJkx7qF1l3+GNGkDVn2oXy4+QoLP6LktXAaZKjuT1JI0YESat7quUkbCMy4zP9lAUuvS4YMslLyTtr919FA==
+  dependencies:
+    "@turf/helpers" "6.x"
+
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   version "7.1.9"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.9.tgz#77e59d438522a6fb898fa43dc3455c6e72f3963d"
@@ -1589,6 +1643,21 @@ gensync@^1.0.0-beta.1:
   version "1.0.0-beta.1"
   resolved "https://registry.yarnpkg.com/gensync/-/gensync-1.0.0-beta.1.tgz#58f4361ff987e5ff6e1e7a210827aa371eaac269"
   integrity sha512-r8EC6NO1sngH/zdD9fiRDLdcgnbayXah+mLgManTaIZJqEC1MZstmnox8KpnI2/fxQwrp5OpCOYWLp4rBl4Jcg==
+
+geojson-geometries-lookup@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/geojson-geometries-lookup/-/geojson-geometries-lookup-0.5.0.tgz#bd3033a91ff274551a480efd5daf819957ffa043"
+  integrity sha512-AfadxaBda6VTwwX4USLiVofFaz0HIjubC7ZC15hGTvc8K0di3pmCNWGFotKJeURSxYPbJLFoet34X3JrIKFX4A==
+  dependencies:
+    "@turf/bbox" "^6.0.1"
+    "@turf/boolean-contains" "^6.0.1"
+    geojson-geometries "^2.0.0"
+    rbush "^3.0.1"
+
+geojson-geometries@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/geojson-geometries/-/geojson-geometries-2.0.0.tgz#faac47174b0c96a448cba8ba4febbfc224339f82"
+  integrity sha512-HKljxKnbJrdkr7ijg5/nvcr1b81HP+C/rS48cJwRb3xEqiEynlGkRVkQ/msopw+EE3gf7DjEKdZyEGMck0bOpw==
 
 get-caller-file@^2.0.1:
   version "2.0.5"
@@ -3036,6 +3105,11 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
+quickselect@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/quickselect/-/quickselect-2.0.0.tgz#f19680a486a5eefb581303e023e98faaf25dd018"
+  integrity sha512-RKJ22hX8mHe3Y6wH/N3wCM6BWtjaxIyyUIkpHOvfFnxdI4yD4tBXEBKSbriGujF6jnSVkJrffuo6vxACiSSxIw==
+
 range-parser@~1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
@@ -3050,6 +3124,13 @@ raw-body@2.4.0:
     http-errors "1.7.2"
     iconv-lite "0.4.24"
     unpipe "1.0.0"
+
+rbush@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/rbush/-/rbush-3.0.1.tgz#5fafa8a79b3b9afdfe5008403a720cc1de882ecf"
+  integrity sha512-XRaVO0YecOpEuIvbhbpTrZgoiI6xBlz6hnlr6EHhd+0x9ase6EmeN+hdwwUaJvLcsFFQ8iWVF1GAK1yB0BWi0w==
+  dependencies:
+    quickselect "^2.0.0"
 
 react-is@^16.12.0:
   version "16.13.1"
