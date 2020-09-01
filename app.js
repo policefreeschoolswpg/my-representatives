@@ -3,7 +3,7 @@ const app = express();
 const cors = require('cors');
 
 const request = require('superagent');
-const apiKey = process.env['WINNIPEG_TRANSIT_API_KEY'] || 'API_KEY';
+const apiKey = process.env['GOOGLE_API_KEY'] || 'API_KEY';
 
 const GeoJsonGeometriesLookup = require('geojson-geometries-lookup');
 const fs = require('fs');
@@ -15,16 +15,16 @@ app.set('etag', false);
 
 app.get('/:query', async ({ params: query }, res) => {
   const response = await request
-    .get(`https://api.winnipegtransit.com/v3/locations:${query.query}.json?api-key=${apiKey}`)
+    .get(`https://maps.googleapis.com/maps/api/geocode/json?components=country:CA|locality:Winnipeg&address=${query.query}&key=${apiKey}`)
     .set('accept', 'json');
 
-  const location = JSON.parse(response.text).locations[0];
-  const address = `${location['street-number']} ${location.street.name}`;
+  const location = JSON.parse(response.text).results[0];
+  const address = `${location.formatted_address.split(',')[0]}`;
 
-  const centre = location.centre.geographic;
+  const centre = location.geometry.location;
   const point = {
     type: 'Point',
-    coordinates: [ parseFloat(centre.longitude), parseFloat(centre.latitude) ]
+    coordinates: [ centre.lng, centre.lat ]
   };
 
   const containers = wardLookup.getContainers(point);
@@ -33,8 +33,8 @@ app.get('/:query', async ({ params: query }, res) => {
 
   res.json({
     address,
-    latitude: centre.latitude,
-    longitude: centre.longitude,
+    latitude: `${centre.lat}`,
+    longitude: `${centre.lng}`,
     division: properties.division,
     ward: properties.ward
   });
