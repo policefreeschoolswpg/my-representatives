@@ -13,6 +13,8 @@ const wardLookup = new GeoJsonGeometriesLookup(wards);
 app.use(cors());
 app.set('etag', false);
 
+app.use(express.static('data'));
+
 app.get('/:query', async ({ params: query }, res) => {
   const geoResponse = await request
     .get(`https://maps.googleapis.com/maps/api/geocode/json?components=country:CA|locality:Winnipeg&address=${query.query}&key=${apiKey}`)
