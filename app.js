@@ -20,32 +20,38 @@ app.get('/:query', async ({ params: query }, res) => {
     .get(`https://maps.googleapis.com/maps/api/geocode/json?components=country:CA|locality:Winnipeg&address=${query.query}&key=${apiKey}`)
     .set('accept', 'json');
 
-  const location = JSON.parse(geoResponse.text).results[0];
-  const address = `${location.formatted_address.split(',')[0]}`;
+  const json = JSON.parse(geoResponse.text)
 
-  const centre = location.geometry.location;
-  const point = {
-    type: 'Point',
-    coordinates: [ centre.lng, centre.lat ]
-  };
+  if (json.status === "OK") {
+    const location = json.results[0];
+    const address = `${location.formatted_address.split(',')[0]}`;
 
-  const response = {
-    address,
-    latitude: `${centre.lat}`,
-    longitude: `${centre.lng}`,
-  };
+    const centre = location.geometry.location;
+    const point = {
+      type: 'Point',
+      coordinates: [ centre.lng, centre.lat ]
+    };
 
-  const containers = wardLookup.getContainers(point);
-  const ward = containers.features[0];
+    const response = {
+      address,
+      latitude: `${centre.lat}`,
+      longitude: `${centre.lng}`,
+    };
 
-  if (ward) {
-    const properties = ward.properties;
+    const containers = wardLookup.getContainers(point);
+    const ward = containers.features[0];
 
-    response.division = properties.division;
-    response.ward = properties.ward;
+    if (ward) {
+      const properties = ward.properties;
+
+      response.division = properties.division;
+      response.ward = properties.ward;
+    }
+
+    res.json(response);
+  } else {
+    res.status(404).json({});
   }
-
-  res.json(response);
 });
 
 module.exports = app;

@@ -172,6 +172,11 @@ nock('https://maps.googleapis.com')
     }
   ],
   "status": "OK"
+})
+.get('/maps/api/geocode/json?address=2540%20portage&components=country:CA|locality:Winnipeg&key=API_KEY')
+.reply(200, {
+  "results": [],
+  "status": "ZERO_RESULTS"
 });
 
 it('responds to a location query', async done => {
@@ -194,5 +199,12 @@ it('handles when there are no matching wards', async done => {
   expect(response.body.division).toBeUndefined();
   expect(response.body.ward).toBeUndefined();
 
+  done();
+});
+
+it('404s when there are no geocoding results', async done => {
+  const response = await request.get('/2540 portage');
+
+  expect(response.status).toBe(404);
   done();
 });
