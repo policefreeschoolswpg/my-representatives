@@ -4,7 +4,7 @@ const request = supertest(app);
 
 const nock = require('nock');
 nock('https://maps.googleapis.com')
-  .get('/maps/api/geocode/json?address=510%20main&components=country:CA|locality:Winnipeg&key=API_KEY')
+  .get('/maps/api/geocode/json?address=510%20main&bounds=49.696011,-97.461243|50.002406,-96.981259&key=API_KEY')
   .reply(200, {
     "results" : [
        {
@@ -84,7 +84,7 @@ nock('https://maps.googleapis.com')
     ],
     "status" : "OK"
  })
- .get('/maps/api/geocode/json?address=321%20main&components=country:CA|locality:Winnipeg&key=API_KEY')
+ .get('/maps/api/geocode/json?address=321%20main&bounds=49.696011,-97.461243|50.002406,-96.981259&key=API_KEY')
  .reply(200, {
   "results": [
     {
@@ -173,7 +173,7 @@ nock('https://maps.googleapis.com')
   ],
   "status": "OK"
 })
-.get('/maps/api/geocode/json?address=2540%20portage&components=country:CA|locality:Winnipeg&key=API_KEY')
+.get('/maps/api/geocode/json?address=2540%20portage&bounds=49.696011,-97.461243|50.002406,-96.981259&key=API_KEY')
 .reply(200, {
   "results": [],
   "status": "ZERO_RESULTS"
