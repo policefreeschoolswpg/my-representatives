@@ -36,7 +36,12 @@ app.use(express.static('data'));
 
 app.get('/:query', async ({ params: query }, res) => {
   const geoResponse = await request
-    .get(`https://maps.googleapis.com/maps/api/geocode/json?bounds=49.696011,-97.461243|50.002406,-96.981259&address=${query.query}&key=${apiKey}`)
+    .get('https://maps.googleapis.com/maps/api/geocode/json')
+    .query({
+      bounds: '49.696011,-97.461243|50.002406,-96.981259',
+      address: query.query,
+      key: apiKey,
+    })
     .set('accept', 'json');
 
   const json = JSON.parse(geoResponse.text)
