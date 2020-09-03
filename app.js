@@ -2,6 +2,25 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 
+const Sentry = require('@sentry/node');
+const Tracing = require("@sentry/tracing");
+
+const SENTRY_DSN = process.env.SENTRY_DSN;
+
+if (SENTRY_DSN) {
+  Sentry.init({
+    dsn: SENTRY_DSN,
+    integrations: [
+      new Sentry.Integrations.Http({ tracing: true }),
+      new Tracing.Integrations.Express({ app }),
+    ],
+    tracesSampleRate: 1.0,
+  });
+
+  app.use(Sentry.Handlers.requestHandler());
+  app.use(Sentry.Handlers.tracingHandler());
+}
+
 const request = require('superagent');
 const apiKey = process.env['GOOGLE_API_KEY'] || 'API_KEY';
 
@@ -53,5 +72,9 @@ app.get('/:query', async ({ params: query }, res) => {
     res.status(404).json({});
   }
 });
+
+if (SENTRY_DSN) {
+  app.use(Sentry.Handlers.errorHandler());
+}
 
 module.exports = app;
