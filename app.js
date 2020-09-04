@@ -60,7 +60,7 @@ app.get('/:query', async ({ params: query }, res) => {
     };
   }
 
-    res.json(response);
+  res.json(response);
 });
 
 if (SENTRY_DSN) {
