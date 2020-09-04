@@ -11,6 +11,10 @@ it('responds to a location query', async done => {
   expect(response.body.schools.division).toBe('Winnipeg');
   expect(response.body.schools.ward).toBe('6');
 
+  expect(response.body.council.ward).toBe('Point Douglas');
+  expect(response.body.council.councillor.name).toBe('Vivian Santos');
+  expect(response.body.council.councillor.phone).toBe('204-986-8401');
+
   done();
 });
 
@@ -18,6 +22,7 @@ it('handles when there are no matching wards', async done => {
   const response = await request.get('/50.1418634,-96.877496');
 
   expect(response.body.schools).toBeUndefined();
+  expect(response.body.council).toBeUndefined();
 
   done();
 });

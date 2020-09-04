@@ -25,8 +25,12 @@ const apiKey = process.env['GOOGLE_API_KEY'] || 'API_KEY';
 
 const GeoJsonGeometriesLookup = require('geojson-geometries-lookup');
 const fs = require('fs');
-const wards = JSON.parse(fs.readFileSync('./data/wards.geojson'));
-const wardLookup = new GeoJsonGeometriesLookup(wards);
+
+const divisionWards = JSON.parse(fs.readFileSync('./data/school-division-wards.geojson'));
+const divisionWardLookup = new GeoJsonGeometriesLookup(divisionWards);
+
+const councilWards = JSON.parse(fs.readFileSync('./data/council-wards.geojson'));
+const councilWardLookup = new GeoJsonGeometriesLookup(councilWards);
 
 app.use(cors());
 app.set('etag', false);
@@ -48,15 +52,30 @@ app.get('/:query', async ({ params: query }, res) => {
     longitude: `${longitude}`,
   };
 
-  const containers = wardLookup.getContainers(point);
-  const ward = containers.features[0];
+  const divisionContainers = divisionWardLookup.getContainers(point);
+  const divisionWard = divisionContainers.features[0];
 
-  if (ward) {
-    const properties = ward.properties;
+  if (divisionWard) {
+    const properties = divisionWard.properties;
 
     response.schools = {
       division: properties.division,
       ward: properties.ward,
+    };
+  }
+
+  const councilContainers = councilWardLookup.getContainers(point);
+  const councilWard = councilContainers.features[0];
+
+  if (councilWard) {
+    const properties = councilWard.properties;
+
+    response.council = {
+      ward: properties.name,
+      councillor: {
+        name: properties.councillor,
+        phone: properties.phone,
+      },
     };
   }
 
