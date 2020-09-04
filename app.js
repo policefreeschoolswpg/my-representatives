@@ -32,6 +32,8 @@ const divisionWardLookup = new GeoJsonGeometriesLookup(divisionWards);
 const councilWards = JSON.parse(fs.readFileSync('./data/council-wards.geojson'));
 const councilWardLookup = new GeoJsonGeometriesLookup(councilWards);
 
+const councilContacts = JSON.parse(fs.readFileSync('./data/council-contacts.json'));
+
 app.use(cors());
 app.set('etag', false);
 
@@ -77,6 +79,15 @@ app.get('/:query', async ({ params: query }, res) => {
         phone: properties.phone,
       },
     };
+
+    const contact = councilContacts.find(c => c.person === properties.councillor);
+    const emailLink = contact.email_link;
+    const recipientIndex = emailLink.indexOf('Recipient=');
+    const ampersandAfterRecipientIndex = emailLink.indexOf('&', recipientIndex + 1);
+    const emailUsername = emailLink.substring(recipientIndex + 10, ampersandAfterRecipientIndex);
+    const email = `${emailUsername}@winnipeg.ca`;
+
+    response.council.councillor.email = email;
   }
 
   res.json(response);
