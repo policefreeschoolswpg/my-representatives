@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 
+const isValidCoordinates = require('is-valid-coordinates')
+
 const Sentry = require('@sentry/node');
 const Tracing = require("@sentry/tracing");
 
@@ -39,10 +41,21 @@ app.set('etag', false);
 
 app.use(express.static('data'));
 
-app.get('/:query', async ({ params: query }, res) => {
-  const [ latitudeString, longitudeString ] = query.query.split(',');
+app.get('/:query', async ({ params: { query } }, res) => {
+  if (!query.includes(',')) {
+    res.status(400).json(constructError(query));
+    return;
+  }
+
+  const [ latitudeString, longitudeString ] = query.split(',');
+
   const latitude = parseFloat(latitudeString);
   const longitude = parseFloat(longitudeString);
+
+  if (!isValidCoordinates(longitude, latitude)) {
+    res.status(400).json(constructError(query));
+    return;
+  }
 
   const point = {
     type: 'Point',
@@ -98,3 +111,9 @@ if (SENTRY_DSN) {
 }
 
 module.exports = app;
+
+function constructError(query) {
+  return {
+    error: `Expected /lat,lng, got /${query}`,
+  };
+};

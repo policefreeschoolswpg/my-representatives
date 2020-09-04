@@ -27,3 +27,19 @@ it('handles when there are no matching wards', async done => {
 
   done();
 });
+
+it('400s when the path doesn’t have a comma', async done => {
+  const response = await request.get('/jortle');
+
+  expect(response.status).toBe(400);
+  expect(response.body.error).toBe('Expected /lat,lng, got /jortle');
+  done();
+});
+
+it('400s when the path has invalid coordinates', async done => {
+  const response = await request.get('/1312,-1870.0');
+
+  expect(response.status).toBe(400);
+  expect(response.body.error).toBe('Expected /lat,lng, got /1312,-1870.0');
+  done();
+});
