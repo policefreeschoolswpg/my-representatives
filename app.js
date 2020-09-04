@@ -54,8 +54,10 @@ app.get('/:query', async ({ params: query }, res) => {
   if (ward) {
     const properties = ward.properties;
 
-    response.division = properties.division;
-    response.ward = properties.ward;
+    response.schools = {
+      division: properties.division,
+      ward: properties.ward,
+    };
   }
 
     res.json(response);
