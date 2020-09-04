@@ -21,7 +21,6 @@ if (SENTRY_DSN) {
   app.use(Sentry.Handlers.tracingHandler());
 }
 
-const request = require('superagent');
 const apiKey = process.env['GOOGLE_API_KEY'] || 'API_KEY';
 
 const GeoJsonGeometriesLookup = require('geojson-geometries-lookup');
@@ -35,47 +34,31 @@ app.set('etag', false);
 app.use(express.static('data'));
 
 app.get('/:query', async ({ params: query }, res) => {
-  const geoResponse = await request
-    .get('https://maps.googleapis.com/maps/api/geocode/json')
-    .query({
-      bounds: '49.696011,-97.461243|50.002406,-96.981259',
-      address: query.query,
-      key: apiKey,
-    })
-    .set('accept', 'json');
+  const [ latitudeString, longitudeString ] = query.query.split(',');
+  const latitude = parseFloat(latitudeString);
+  const longitude = parseFloat(longitudeString);
 
-  const json = JSON.parse(geoResponse.text)
+  const point = {
+    type: 'Point',
+    coordinates: [ longitude, latitude ]
+  };
 
-  if (json.status === "OK") {
-    const location = json.results[0];
-    const address = `${location.formatted_address.split(',')[0]}`;
+  const response = {
+    latitude: `${latitude}`,
+    longitude: `${longitude}`,
+  };
 
-    const centre = location.geometry.location;
-    const point = {
-      type: 'Point',
-      coordinates: [ centre.lng, centre.lat ]
-    };
+  const containers = wardLookup.getContainers(point);
+  const ward = containers.features[0];
 
-    const response = {
-      address,
-      latitude: `${centre.lat}`,
-      longitude: `${centre.lng}`,
-    };
+  if (ward) {
+    const properties = ward.properties;
 
-    const containers = wardLookup.getContainers(point);
-    const ward = containers.features[0];
-
-    if (ward) {
-      const properties = ward.properties;
-
-      response.division = properties.division;
-      response.ward = properties.ward;
-    }
+    response.division = properties.division;
+    response.ward = properties.ward;
+  }
 
     res.json(response);
-  } else {
-    res.status(404).json({});
-  }
 });
 
 if (SENTRY_DSN) {

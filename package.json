@@ -15,8 +15,7 @@
     "@sentry/tracing": "^5.22.3",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "geojson-geometries-lookup": "^0.5.0",
-    "superagent": "^6.1.0"
+    "geojson-geometries-lookup": "^0.5.0"
   },
   "devDependencies": {
     "jest": "^26.4.2",
