@@ -21,9 +21,13 @@ it('responds to a location query', async done => {
   ]);
 
   expect(response.body.council.ward).toBe('Point Douglas');
-  expect(response.body.council.councillor.name).toBe('Vivian Santos');
-  expect(response.body.council.councillor.phone).toBe('204-986-8401');
-  expect(response.body.council.councillor.email).toBe('VSantos@winnipeg.ca');
+
+  expect(response.body.council.councillor).toEqual({
+    name: 'Vivian Santos',
+    phone: '204-986-8401',
+    email: 'VSantos@winnipeg.ca',
+    photo: 'Santos.png',
+  });
 
   done();
 });

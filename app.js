@@ -37,6 +37,7 @@ const councilWards = JSON.parse(fs.readFileSync('./data/council-wards.geojson'))
 const councilWardLookup = new GeoJsonGeometriesLookup(councilWards);
 
 const councilContacts = JSON.parse(fs.readFileSync('./data/council-contacts.json'));
+const councilPhotos = JSON.parse(fs.readFileSync('./data/council-photos.json'));
 
 app.use(cors());
 app.set('etag', false);
@@ -101,6 +102,7 @@ app.get('/:query', async ({ params: { query } }, res) => {
       councillor: {
         name: properties.councillor,
         phone: properties.phone,
+        photo: councilPhotos.find(councillor => councillor.name === properties.councillor).photo,
       },
     };
 
