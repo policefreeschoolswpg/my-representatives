@@ -11,6 +11,15 @@ it('responds to a location query', async done => {
   expect(response.body.schools.division).toBe('Winnipeg');
   expect(response.body.schools.ward).toBe('6');
 
+  expect(response.body.schools.trustees).toEqual([
+    {
+      name: 'Yijie (Jennifer) Chen',
+      email: 'ychen@wsd1.org',
+      phone: '204-789-0469',
+      photo: 'Chen.jpg',
+    },
+  ]);
+
   expect(response.body.council.ward).toBe('Point Douglas');
   expect(response.body.council.councillor.name).toBe('Vivian Santos');
   expect(response.body.council.councillor.phone).toBe('204-986-8401');

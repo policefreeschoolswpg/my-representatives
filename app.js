@@ -31,6 +31,8 @@ const fs = require('fs');
 const divisionWards = JSON.parse(fs.readFileSync('./data/school-division-wards.geojson'));
 const divisionWardLookup = new GeoJsonGeometriesLookup(divisionWards);
 
+const trusteeContacts = JSON.parse(fs.readFileSync('./data/school-division-contacts.json'));
+
 const councilWards = JSON.parse(fs.readFileSync('./data/council-wards.geojson'));
 const councilWardLookup = new GeoJsonGeometriesLookup(councilWards);
 
@@ -76,6 +78,15 @@ app.get('/:query', async ({ params: { query } }, res) => {
     response.schools = {
       division: properties.division,
       ward: properties.ward,
+      trustees: trusteeContacts.filter(trustee => {
+          return trustee['SCHOOL DIVISION'] === properties.division.toUpperCase() &&
+            trustee['WARD'].replace('/','-') === properties.ward
+        }).map(trustee => ({
+          name: trustee['TRUSTEE'],
+          email: trustee['EMAIL'],
+          phone: trustee['PHONE'],
+          photo: trustee['PHOTO NAME'],
+        }))
     };
   }
 
