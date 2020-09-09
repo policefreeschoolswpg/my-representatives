@@ -108,9 +108,8 @@ app.get('/:query', async ({ params: { query } }, res) => {
 
     const contact = councilContacts.find(c => c.person === properties.councillor);
     const emailLink = contact.email_link;
-    const recipientIndex = emailLink.indexOf('Recipient=');
-    const ampersandAfterRecipientIndex = emailLink.indexOf('&', recipientIndex + 1);
-    const emailUsername = emailLink.substring(recipientIndex + 10, ampersandAfterRecipientIndex);
+    const emailLinkURL = new URL(emailLink);
+    const emailUsername = emailLinkURL.searchParams.get('Recipient');
     const email = `${emailUsername}@winnipeg.ca`;
 
     response.council.councillor.email = email;

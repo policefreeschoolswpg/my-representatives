@@ -32,6 +32,19 @@ it('responds to a location query', async done => {
   done();
 });
 
+it('parses the councillor email properly', async done => {
+  const response = await request.get('/49.77207304732028,-97.20588441358123');
+
+  expect(response.body.council.councillor).toEqual({
+    name: 'Janice Lukes',
+    phone: '204-986-6824',
+    email: 'Jlukes@winnipeg.ca',
+    photo: 'lukes3.jpg',
+  });
+
+  done();
+});
+
 it('handles when there are no matching wards', async done => {
   const response = await request.get('/50.1418634,-96.877496');
 
