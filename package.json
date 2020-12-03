@@ -6,6 +6,7 @@
   "author": "Buck Doyle",
   "license": "MIT",
   "scripts": {
+    "extract-wsd-catchments": "node extract-wsd-catchments.js",
     "start": "node start.js",
     "test": "jest",
     "test:watch": "jest --watch"
@@ -19,6 +20,7 @@
     "is-valid-coordinates": "^1.0.0"
   },
   "devDependencies": {
+    "csv-parse": "^4.14.1",
     "jest": "^26.4.2",
     "nock": "^13.0.4",
     "supertest": "^4.0.2"
