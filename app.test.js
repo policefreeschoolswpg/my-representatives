@@ -3,13 +3,14 @@ const supertest = require('supertest');
 const request = supertest(app);
 
 it('responds to a location query', async done => {
-  const response = await request.get('/49.9001165,-97.1389641');
+  const response = await request.get('/49.9001165,-97.1389641?postal-code=R3B%202Z1');
 
   expect(response.body.latitude).toBe('49.9001165');
   expect(response.body.longitude).toBe('-97.1389641');
 
   expect(response.body.schools.division).toBe('Winnipeg');
   expect(response.body.schools.ward).toBe('6');
+  expect(response.body.schools.district).toBe('Inner City');
 
   expect(response.body.schools.trustees).toEqual([
     {

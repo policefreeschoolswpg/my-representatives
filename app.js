@@ -31,6 +31,8 @@ const fs = require('fs');
 const divisionWards = JSON.parse(fs.readFileSync('./data/school-division-wards.geojson'));
 const divisionWardLookup = new GeoJsonGeometriesLookup(divisionWards);
 
+const wsdPostalCodeToDistrict = JSON.parse(fs.readFileSync('./data/wsd-postal-code-to-district.json'));
+
 const trusteeContacts = JSON.parse(fs.readFileSync('./data/school-division-contacts.json'));
 
 const councilWards = JSON.parse(fs.readFileSync('./data/council-wards.geojson'));
@@ -44,7 +46,7 @@ app.set('etag', false);
 
 app.use(express.static('data'));
 
-app.get('/:query', async ({ params: { query } }, res) => {
+app.get('/:query', async ({ params: { query }, query: queryParameters }, res) => {
   if (!query.includes(',')) {
     res.status(400).json(constructError(query));
     return;
@@ -89,6 +91,16 @@ app.get('/:query', async ({ params: { query } }, res) => {
           photo: trustee['PHOTO NAME'],
         }))
     };
+
+    const queryPostalCode = queryParameters['postal-code'];
+
+    if (queryPostalCode) {
+      const district = wsdPostalCodeToDistrict[queryPostalCode];
+
+      if (district) {
+        response.schools.district = district;
+      }
+    }
   }
 
   const councilContainers = councilWardLookup.getContainers(point);
