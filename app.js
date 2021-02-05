@@ -45,6 +45,7 @@ app.use(cors());
 app.set('etag', false);
 
 app.use(express.static('data'));
+app.use('/photos', express.static('photos'));
 
 app.get('/:query', async ({ params: { query }, query: queryParameters }, res) => {
   if (!query.includes(',')) {
@@ -88,7 +89,7 @@ app.get('/:query', async ({ params: { query }, query: queryParameters }, res) =>
           name: trustee['TRUSTEE'],
           email: trustee['EMAIL'],
           phone: trustee['PHONE'],
-          photo: trustee['PHOTO NAME'],
+          photo: `/photos/schools/${trustee['PHOTO NAME']}`,
         }))
     };
 
@@ -108,13 +109,14 @@ app.get('/:query', async ({ params: { query }, query: queryParameters }, res) =>
 
   if (councilWard) {
     const properties = councilWard.properties;
+    const photo = `/photos/council/${councilPhotos.find(councillor => councillor.name === properties.councillor).photo}`;
 
     response.council = {
       ward: properties.name,
       councillor: {
         name: properties.councillor,
         phone: properties.phone,
-        photo: councilPhotos.find(councillor => councillor.name === properties.councillor).photo,
+        photo,
       },
     };
 

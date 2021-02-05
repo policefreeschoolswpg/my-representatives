@@ -22,7 +22,7 @@ Response:
         "name": "Yijie (Jennifer) Chen",
         "email": "ychen@wsd1.org",
         "phone": "204-789-0469",
-        "photo": "Chen.jpg"
+        "photo": "/photos/schools/Chen.jpg"
       }
     ]
   },
@@ -31,7 +31,7 @@ Response:
     "councillor": {
       "name": "Vivian Santos",
       "phone": "204-986-8401",
-      "photo": "Santos.png",
+      "photo": "/photos/council/Santos.png",
       "email": "VSantos@winnipeg.ca"
     }
   }

@@ -17,7 +17,7 @@ it('responds to a location query', async done => {
       name: 'Yijie (Jennifer) Chen',
       email: 'ychen@wsd1.org',
       phone: '204-789-0469',
-      photo: 'Chen.jpg',
+      photo: '/photos/schools/Chen.jpg',
     },
   ]);
 
@@ -27,7 +27,7 @@ it('responds to a location query', async done => {
     name: 'Vivian Santos',
     phone: '204-986-8401',
     email: 'VSantos@winnipeg.ca',
-    photo: 'Santos.png',
+    photo: '/photos/council/Santos.png',
   });
 
   done();
@@ -40,7 +40,7 @@ it('parses the councillor email properly', async done => {
     name: 'Janice Lukes',
     phone: '204-986-6824',
     email: 'Jlukes@winnipeg.ca',
-    photo: 'lukes3.jpg',
+    photo: '/photos/council/lukes3.jpg',
   });
 
   done();
