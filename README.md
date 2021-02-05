@@ -1,6 +1,6 @@
 # My Trustees API
 
-This is an Express application that takes a latitude and longitude and returns the school division and ward for that position, if found.
+This is an Express application that takes a latitude and longitude and returns the Winnipeg city council ward/councillor and school division/ward/trustee(s) for that position, if found.
 
 Example query (for City Hall, 510 Main):
 
@@ -16,13 +16,22 @@ Response:
   "longitude": "-97.1389641",
   "schools": {
     "division": "Winnipeg",
-    "ward": "6"
+    "ward": "6",
+    "trustees": [
+      {
+        "name": "Yijie (Jennifer) Chen",
+        "email": "ychen@wsd1.org",
+        "phone": "204-789-0469",
+        "photo": "Chen.jpg"
+      }
+    ]
   },
   "council": {
     "ward": "Point Douglas",
     "councillor": {
       "name": "Vivian Santos",
       "phone": "204-986-8401",
+      "photo": "Santos.png",
       "email": "VSantos@winnipeg.ca"
     }
   }
