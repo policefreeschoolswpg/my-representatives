@@ -34,6 +34,17 @@ Response:
       "photo": "/photos/council/Santos.png",
       "email": "VSantos@winnipeg.ca"
     }
+  },
+  "manitoba": {
+    "division": "Point Douglas",
+    "member": {
+      "name": "Bernadette Smith",
+      "email": "Bernadette.Smith@leg.gov.mb.ca",
+      "constituencyEmail": "bernadette.smith@yourmanitoba.ca",
+      "phone": "(204) 945-3710",
+      "constituencyPhone": "(204) 414-1477",
+      "photo": "/photos/manitoba/smith.jpg"
+    }
   }
 }
 ```

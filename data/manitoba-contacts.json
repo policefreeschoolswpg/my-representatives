@@ -1,0 +1,505 @@
+[
+  {
+    "name": "Danielle Adams",
+    "division": "Thompson",
+    "email": "Danielle.Adams@leg.gov.mb.ca",
+    "constituencyEmail": "danielle.adams@yourmanitoba.ca",
+    "phone": "(204) 945-3710",
+    "constituencyPhone": "(204) 677-2744",
+    "photo": "adams.jpg"
+  },
+  {
+    "name": "Nello Altomare",
+    "division": "Transcona",
+    "email": "Nello.Altomare@leg.gov.mb.ca",
+    "constituencyEmail": "nello.altomare@yourmanitoba.ca",
+    "phone": "(204) 945-3710",
+    "photo": "altomare.jpg"
+  },
+  {
+    "name": "Uzoma Asagwara",
+    "division": "Union Station",
+    "email": "Uzoma.Asagwara@leg.gov.mb.ca",
+    "constituencyEmail": "uzoma.asagwara@yourmanitoba.ca",
+    "phone": "(204) 945-3710",
+    "constituencyPhone": "(204) 770-0760",
+    "photo": "asagwara.jpg"
+  },
+  {
+    "name": "Diljeet Brar",
+    "division": "Burrows",
+    "email": "Diljeet.Brar@leg.gov.mb.ca",
+    "constituencyEmail": "diljeet.brar@yourmanitoba.ca",
+    "phone": "(204) 945-3710",
+    "constituencyPhone": "(204) 415-7621",
+    "photo": "brar.jpg"
+  },
+  {
+    "name": "Ian Bushie",
+    "division": "Keewatinook",
+    "email": "Ian.Bushie@leg.gov.mb.ca",
+    "constituencyEmail": "ian.bushie@yourmanitoba.ca",
+    "phone": "(204) 945-3710",
+    "constituencyPhone": "(204) 363-7810",
+    "photo": "bushie.jpg"
+  },
+  {
+    "name": "Eileen Clarke",
+    "division": "Agassiz",
+    "email": "minindnr@leg.gov.mb.ca",
+    "constituencyEmail": "agassizmla@outlook.com",
+    "phone": "(204) 945-3788",
+    "constituencyPhone": "(204) 385-2469",
+    "photo": "clarke.jpg"
+  },
+  {
+    "name": "Catherine Cox",
+    "division": "Kildonan-River East",
+    "email": "minsch@leg.gov.mb.ca",
+    "constituencyEmail": "cathycox@mymts.net",
+    "phone": "(204) 945-3729",
+    "constituencyPhone": "(204) 334-7866",
+    "photo": "cox.jpg"
+  },
+  {
+    "name": "Cliff Cullen",
+    "division": "Spruce Woods",
+    "email": "minedu@leg.gov.mb.ca",
+    "constituencyEmail": "ccullenmla@mts.net",
+    "phone": "(204) 945-3720",
+    "constituencyPhone": "(204) 827-3956",
+    "photo": "cullen.jpg"
+  },
+  {
+    "name": "Myrna Driedger",
+    "division": "Roblin",
+    "email": "Myrna.Driedger@leg.gov.mb.ca",
+    "constituencyEmail": "myrnadriedger@shaw.ca",
+    "phone": "(204) 945-3706",
+    "constituencyPhone": "(204) 885-0594",
+    "photo": "driedger.jpg"
+  },
+  {
+    "name": "Ralph Eichler",
+    "division": "Lakeside",
+    "email": "minedj@leg.gov.mb.ca",
+    "constituencyEmail": "mlalakeside@mymts.net",
+    "phone": "(204) 945-0067",
+    "constituencyPhone": "(204) 467-9482",
+    "photo": "eichler.jpg"
+  },
+  {
+    "name": "Wayne Ewasko",
+    "division": "Lac du Bonnet",
+    "email": "minaesi@leg.gov.mb.ca",
+    "constituencyEmail": "wayne@wayneewasko.com",
+    "phone": "(204) 945-8480",
+    "constituencyPhone": "(204) 268-3282",
+    "photo": "ewasko.jpg"
+  },
+  {
+    "name": "Scott Fielding",
+    "division": "Kirkfield Park",
+    "email": "minfin@leg.gov.mb.ca",
+    "constituencyEmail": "scott@scottfielding.ca",
+    "phone": "(204) 945-3952",
+    "constituencyPhone": "(204) 889-0540",
+    "photo": "fielding.jpg"
+  },
+  {
+    "name": "Nahanni Fontaine",
+    "division": "St. Johns",
+    "email": "nahanni.fontaine@leg.gov.mb.ca",
+    "constituencyEmail": "nahanni.fontaine@yourmanitoba.ca",
+    "phone": "(204) 945-3710",
+    "constituencyPhone": "(204) 582-1550",
+    "photo": "fontaine.jpg"
+  },
+  {
+    "name": "Cameron Friesen",
+    "division": "Morden-Winkler",
+    "email": "minjus@leg.gov.mb.ca",
+    "constituencyEmail": "info@cameronfriesen.ca",
+    "phone": "(204) 945-3728",
+    "constituencyPhone": "(204) 822-1088",
+    "photo": "friesen.jpg"
+  },
+  {
+    "name": "Jon Gerrard",
+    "division": "River Heights",
+    "email": "jon.gerrard@leg.gov.mb.ca",
+    "constituencyEmail": "info@JonGerrardMLA.ca",
+    "phone": "(204) 945-5194",
+    "constituencyPhone": "(204) 289-1560",
+    "photo": "gerrard.jpg"
+  },
+  {
+    "name": "Kelvin Goertzen",
+    "division": "Steinbach",
+    "email": "minlpa@leg.gov.mb.ca",
+    "constituencyEmail": "kelvin@kelvingoertzen.com",
+    "phone": "(204) 945-4760",
+    "constituencyPhone": "(204) 326-5763",
+    "photo": "goertzen.jpg"
+  },
+  {
+    "name": "Audrey Gordon",
+    "division": "Southdale",
+    "email": "minmhwr@leg.gov.mb.ca",
+    "constituencyEmail": "mlaaudreygordon@gmail.com",
+    "phone": "(204) 945-1211",
+    "constituencyPhone": "(204) 415-7397",
+    "photo": "gordon.jpg"
+  },
+  {
+    "name": "Josh Guenter",
+    "division": "Borderland",
+    "email": "Josh.Guenter@leg.gov.mb.ca",
+    "constituencyEmail": "info@joshguenter.ca",
+    "phone": "(204) 945-3709",
+    "photo": "guenter.jpg"
+  },
+  {
+    "name": "Sarah Guillemard",
+    "division": "Fort Richmond",
+    "email": "mincc@leg.gov.mb.ca",
+    "phone": "(204) 945-3730",
+    "constituencyPhone": "(204) 221-8881",
+    "photo": "guillemard.jpg"
+  },
+  {
+    "name": "Reg Helwer",
+    "division": "Brandon West",
+    "email": "mincentral@leg.gov.mb.ca",
+    "constituencyEmail": "reghelwer@wcgwave.ca",
+    "phone": "(204) 945-6215",
+    "constituencyPhone": "(204) 728-2410",
+    "photo": "helwer.jpg"
+  },
+  {
+    "name": "Len Isleifson",
+    "division": "Brandon East",
+    "email": "Len.Isleifson@leg.gov.mb.ca",
+    "phone": "(204) 945-3709",
+    "constituencyPhone": "(204) 717-0977",
+    "photo": "isleifson.jpg"
+  },
+  {
+    "name": "Derek Johnson",
+    "division": "Interlake-Gimli",
+    "email": "minmr@leg.gov.mb.ca",
+    "constituencyEmail": "interlakegimlimla@gmail.com",
+    "phone": "(204) 945-5854",
+    "constituencyPhone": "(204) 641-8525",
+    "photo": "johnson.jpg"
+  },
+  {
+    "name": "Scott Johnston",
+    "division": "Assiniboia",
+    "email": "Scott.Johnston@leg.gov.mb.ca",
+    "constituencyEmail": "assiniboiamla@outlook.com",
+    "phone": "(204) 945-3709",
+    "photo": "johnston.jpg"
+  },
+  {
+    "name": "Wab Kinew",
+    "division": "Fort Rouge",
+    "email": "Wab.Kinew@leg.gov.mb.ca",
+    "constituencyEmail": "wab.kinew@yourmanitoba.ca",
+    "phone": "(204) 945-3284",
+    "constituencyPhone": "(204) 615-1922",
+    "photo": "kinew.jpg"
+  },
+  {
+    "name": "Bob Lagassé",
+    "division": "Dawson Trail",
+    "email": "Bob.Lagasse@leg.gov.mb.ca",
+    "constituencyEmail": "ca.lagasse@outlook.com",
+    "phone": "(204) 945-3709",
+    "constituencyPhone": "(204) 807-4663",
+    "photo": "lagasse.jpg"
+  },
+  {
+    "name": "Alan Lagimodiere",
+    "division": "Selkirk",
+    "email": "Alan.Lagimodiere@leg.gov.mb.ca",
+    "constituencyEmail": "alanlagselkirkmla@mymts.net",
+    "phone": "(204) 945-3709",
+    "constituencyPhone": "(204) 482-4955",
+    "photo": "lagimodiere.jpg"
+  },
+  {
+    "name": "Dougald Lamont",
+    "division": "St. Boniface",
+    "email": "Dougald.Lamont@leg.gov.mb.ca",
+    "constituencyEmail": "info@dougaldlamont.ca",
+    "phone": "(204) 945-6276",
+    "photo": "lamont.jpg"
+  },
+  {
+    "name": "Cindy Lamoureux",
+    "division": "Tyndall Park",
+    "email": "Cindy.Lamoureux@leg.gov.mb.ca",
+    "phone": "(204) 945-6276",
+    "constituencyPhone": "(204) 615-9961",
+    "photo": "lamoureux.jpg"
+  },
+  {
+    "name": "Amanda Lathlin",
+    "division": "The Pas-Kameesak",
+    "email": "Amanda.Lathlin@leg.gov.mb.ca",
+    "constituencyEmail": "amanda.lathlin@yourmanitoba.ca",
+    "phone": "(204) 945-3710",
+    "constituencyPhone": "(204) 623-2034",
+    "photo": "lathlin.jpg"
+  },
+  {
+    "name": "Tom Lindsey",
+    "division": "Flin Flon",
+    "email": "Tom.Lindsey@leg.gov.mb.ca",
+    "constituencyEmail": "tom.lindsey@yourmanitoba.ca",
+    "phone": "(204) 945-3710",
+    "constituencyPhone": "(204) 687-3246",
+    "photo": "lindsey.jpg"
+  },
+  {
+    "name": "Jim Maloway",
+    "division": "Elmwood",
+    "email": "Jim.Maloway@leg.gov.mb.ca",
+    "constituencyEmail": "jim.maloway@yourmanitoba.ca",
+    "phone": "(204) 945-3710",
+    "constituencyPhone": "(204) 415-1122",
+    "photo": "maloway.jpg"
+  },
+  {
+    "name": "Malaya Marcelino",
+    "division": "Notre Dame",
+    "email": "Malaya.Marcelino@leg.gov.mb.ca",
+    "constituencyEmail": "malaya.marcelino@yourmanitoba.ca",
+    "phone": "(204) 945-3710",
+    "constituencyPhone": "(204) 788-0800",
+    "photo": "marcelino.jpg"
+  },
+  {
+    "name": "Shannon Martin",
+    "division": "McPhillips",
+    "email": "Shannon.Martin@leg.gov.mb.ca",
+    "constituencyEmail": "mcphillips@shannonmartin.ca",
+    "phone": "(204) 945-3709",
+    "constituencyPhone": "(204) 336-2068",
+    "photo": "martin.jpg"
+  },
+  {
+    "name": "Brad Michaleski",
+    "division": "Dauphin",
+    "email": "Brad.Michaleski@leg.gov.mb.ca",
+    "constituencyEmail": "dauphinmla@outlook.com",
+    "phone": "(204) 945-3709",
+    "constituencyPhone": "(204) 701-0238",
+    "photo": "michaleski.jpg"
+  },
+  {
+    "name": "Andrew Micklefield",
+    "division": "Rossmere",
+    "email": "Andrew.Micklefield@leg.gov.mb.ca",
+    "phone": "(204) 945-3709",
+    "constituencyPhone": "(204) 289-4545",
+    "photo": "micklefield.jpg"
+  },
+  {
+    "name": "Janice Morley-Lecomte",
+    "division": "Seine River",
+    "email": "Janice.Morley-Lecomte@leg.gov.mb.ca",
+    "constituencyEmail": "janice.seineriverMLA@mymts.net",
+    "phone": "(204) 945-3709",
+    "constituencyPhone": "(204) 253-4509",
+    "photo": "morley-lecomte.jpg"
+  },
+  {
+    "name": "Jamie Moses",
+    "division": "St. Vital",
+    "email": "Jamie.Moses@leg.gov.mb.ca",
+    "constituencyEmail": "jamie.moses@yourmanitoba.ca",
+    "phone": "(204) 945-3710",
+    "constituencyPhone": "(204) 219-5407",
+    "photo": "moses.jpg"
+  },
+  {
+    "name": "Lisa Naylor",
+    "division": "Wolseley",
+    "email": "Lisa.Naylor@leg.gov.mb.ca",
+    "constituencyEmail": "lisa.naylor@yourmanitoba.ca",
+    "phone": "(204) 945-3710",
+    "constituencyPhone": "(204) 792-2773",
+    "photo": "naylor.jpg"
+  },
+  {
+    "name": "Greg Nesbitt",
+    "division": "Riding Mountain",
+    "email": "Greg.Nesbitt@leg.gov.mb.ca",
+    "constituencyEmail": "gregnesbittmla@mymts.net",
+    "phone": "(204) 945-3709",
+    "constituencyPhone": "(204) 759-3313",
+    "photo": "nesbitt.jpg"
+  },
+  {
+    "name": "Brian Pallister",
+    "division": "Fort Whyte",
+    "email": "Premier@leg.gov.mb.ca",
+    "constituencyEmail": "info@brianpallister.com",
+    "phone": "(204) 945-3714",
+    "constituencyPhone": "(204) 489-0828",
+    "photo": "pallister.jpg"
+  },
+  {
+    "name": "Blaine Pedersen",
+    "division": "Midland",
+    "email": "minagr@leg.gov.mb.ca",
+    "constituencyEmail": "midlandmla@outlook.com",
+    "phone": "(204) 945-3722",
+    "constituencyPhone": "(204) 745-2203",
+    "photo": "pedersen.jpg"
+  },
+  {
+    "name": "Doyle Piwniuk",
+    "division": "Turtle Mountain",
+    "email": "Doyle.Piwniuk@leg.gov.mb.ca",
+    "constituencyEmail": "info@doylepiwniuk.ca",
+    "phone": "(204) 945-3709",
+    "constituencyPhone": "(204) 552-0130",
+    "photo": "piwniuk.jpg"
+  },
+  {
+    "name": "Jon Reyes",
+    "division": "Waverley",
+    "email": "Jon.Reyes@leg.gov.mb.ca",
+    "constituencyEmail": "jon@jonreyes.ca",
+    "phone": "(204) 945-3709",
+    "constituencyPhone": " (204) 261-7272",
+    "photo": "reyes.jpg"
+  },
+  {
+    "name": "Adrien Sala",
+    "division": "St. James",
+    "email": "Adrien.Sala@leg.gov.mb.ca",
+    "constituencyEmail": "adrien.sala@yourmanitoba.ca",
+    "phone": "(204) 945-3710",
+    "photo": "sala.jpg"
+  },
+  {
+    "name": "Mintu Sandhu",
+    "division": "The Maples",
+    "email": "Mintu.Sandhu@leg.gov.mb.ca",
+    "constituencyEmail": "mintu.sandhu@yourmanitoba.ca",
+    "phone": "(204) 945-3710",
+    "photo": "sandhu.jpg"
+  },
+  {
+    "name": "Ron Schuler",
+    "division": "Springfield-Ritchot",
+    "email": "minmi@leg.gov.mb.ca",
+    "constituencyEmail": "ron@ronschuler.com",
+    "phone": "(204) 945-3723",
+    "constituencyPhone": "(204) 330-3353",
+    "photo": "schuler.jpg"
+  },
+  {
+    "name": "Andrew Smith",
+    "division": "Lagimodière",
+    "email": "Andrew.Smith@leg.gov.mb.ca",
+    "constituencyEmail": "andrew@andrewsmithmla.ca",
+    "phone": "(204) 945-3709",
+    "constituencyPhone": "(204) 416-7337",
+    "photo": "smith2.jpg"
+  },
+  {
+    "name": "Bernadette Smith",
+    "division": "Point Douglas",
+    "email": "Bernadette.Smith@leg.gov.mb.ca",
+    "constituencyEmail": "bernadette.smith@yourmanitoba.ca",
+    "phone": "(204) 945-3710",
+    "constituencyPhone": "(204) 414-1477",
+    "photo": "smith.jpg"
+  },
+  {
+    "name": "Dennis Smook",
+    "division": "La Vérendrye",
+    "email": "Dennis.Smook@leg.gov.mb.ca",
+    "constituencyEmail": "office@dennissmook.ca",
+    "phone": "(204) 945-3709",
+    "constituencyPhone": "(204) 424-5406",
+    "photo": "smook.jpg"
+  },
+  {
+    "name": "Rochelle Squires",
+    "division": "Riel",
+    "email": "minfs@leg.gov.mb.ca",
+    "constituencyEmail": "rochelle@rochellesquires.ca",
+    "phone": "(204) 945-4173",
+    "constituencyPhone": "(204) 615-5241",
+    "photo": "squires.jpg"
+  },
+  {
+    "name": "Heather Stefanson",
+    "division": "Tuxedo",
+    "email": "minhsc@leg.gov.mb.ca",
+    "constituencyEmail": "tuxconst@mymts.net",
+    "phone": "(204) 945-3731",
+    "constituencyPhone": "(204) 487-0013",
+    "photo": "stefanson.jpg"
+  },
+  {
+    "name": "James Teitsma",
+    "division": "Radisson",
+    "email": "james.teitsma@leg.gov.mb.ca",
+    "constituencyEmail": "office@jamesteitsma.ca",
+    "phone": "(204) 945-3709",
+    "constituencyPhone": "(204) 691-7976",
+    "photo": "teitsma.jpg"
+  },
+  {
+    "name": "Mark Wasyliw",
+    "division": "Fort Garry",
+    "email": "Mark.Wasyliw@leg.gov.mb.ca",
+    "constituencyEmail": "mark.wasyliw@yourmanitoba.ca",
+    "phone": "(204) 945-3710",
+    "constituencyPhone": "(204) 421-4241",
+    "photo": "wasyliw.jpg"
+  },
+  {
+    "name": "Jeff Wharton",
+    "division": "Red River North",
+    "email": "mincrown@leg.gov.mb.ca",
+    "constituencyEmail": "gimlica@mymts.net",
+    "phone": "(204) 945-8020",
+    "constituencyPhone": "(204) 641-2107",
+    "photo": "wharton.jpg"
+  },
+  {
+    "name": "Matt Wiebe",
+    "division": "Concordia",
+    "email": "matt.wiebe@leg.gov.mb.ca",
+    "constituencyEmail": "matt.wiebe@yourmanitoba.ca",
+    "phone": "(204) 945-3710",
+    "constituencyPhone": "(204) 654-1857",
+    "photo": "wiebe.jpg"
+  },
+  {
+    "name": "Ian Wishart",
+    "division": "Portage La Prairie",
+    "email": "Ian.Wishart@leg.gov.mb.ca",
+    "constituencyEmail": "ptgemla@mymts.net",
+    "phone": "(204) 945-3709",
+    "constituencyPhone": "(204) 857-9267",
+    "photo": "wishart.jpg"
+  },
+  {
+    "name": "Rick Wowchuk",
+    "division": "Swan River",
+    "email": "rick.wowchuk@leg.gov.mb.ca",
+    "constituencyEmail": "office@rickwowchuk.ca",
+    "phone": "(204) 945-3709",
+    "constituencyPhone": "(204) 614-7425",
+    "photo": "wowchuk.jpg"
+  }
+]

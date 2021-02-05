@@ -41,6 +41,11 @@ const councilWardLookup = new GeoJsonGeometriesLookup(councilWards);
 const councilContacts = JSON.parse(fs.readFileSync('./data/council-contacts.json'));
 const councilPhotos = JSON.parse(fs.readFileSync('./data/council-photos.json'));
 
+const manitobaDivisions = JSON.parse(fs.readFileSync('./data/manitoba-electoral-divisions.geojson'));
+const manitobaDivisionLookup = new GeoJsonGeometriesLookup(manitobaDivisions);
+
+const manitobaContacts = JSON.parse(fs.readFileSync('./data/manitoba-contacts.json'));
+
 app.use(cors());
 app.set('etag', false);
 
@@ -127,6 +132,28 @@ app.get('/:query', async ({ params: { query }, query: queryParameters }, res) =>
     const email = `${emailUsername}@winnipeg.ca`;
 
     response.council.councillor.email = email;
+  }
+
+  const manitobaContainers = manitobaDivisionLookup.getContainers(point);
+  const manitobaDivision = manitobaContainers.features[0];
+
+  if (manitobaDivision) {
+    const properties = manitobaDivision.properties;
+
+    response.manitoba = {
+      division: properties.ED,
+    };
+
+    const contact = manitobaContacts.find(c => c.division === properties.ED);
+
+    if (contact) {
+      response.manitoba.member = {
+        ...contact,
+        photo: `/photos/manitoba/${contact.photo}`,
+      };
+
+      delete response.manitoba.member.division;
+    }
   }
 
   res.json(response);

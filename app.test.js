@@ -30,6 +30,17 @@ it('responds to a location query', async done => {
     photo: '/photos/council/Santos.png',
   });
 
+  expect(response.body.manitoba.division).toBe('Point Douglas');
+
+  expect(response.body.manitoba.member).toEqual({
+    "name": "Bernadette Smith",
+    "email": "Bernadette.Smith@leg.gov.mb.ca",
+    "constituencyEmail": "bernadette.smith@yourmanitoba.ca",
+    "phone": "(204) 945-3710",
+    "constituencyPhone": "(204) 414-1477",
+    "photo": "/photos/manitoba/smith.jpg"
+  });
+
   done();
 });
 
