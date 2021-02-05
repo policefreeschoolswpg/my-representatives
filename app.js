@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
+
+const compression = require('compression');
 const cors = require('cors');
 
 const isValidCoordinates = require('is-valid-coordinates')
@@ -45,6 +47,8 @@ const manitobaDivisions = JSON.parse(fs.readFileSync('./data/manitoba-electoral-
 const manitobaDivisionLookup = new GeoJsonGeometriesLookup(manitobaDivisions);
 
 const manitobaContacts = JSON.parse(fs.readFileSync('./data/manitoba-contacts.json'));
+
+app.use(compression());
 
 app.use(cors());
 app.set('etag', false);
