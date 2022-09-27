@@ -24,6 +24,8 @@ const TWITTER_COLUMN = 24;
 const LINKEDIN_COLUMN = 25;
 const INSTAGRAM_COLUMN = 26;
 
+const PHOTO_COLUMN = 27;
+
 const data2022 = rawData.filter(row => row[ELECTION_DATE_COLUMN] === ELECTION_DATE_2022 && row[STATUS_COLUMN] === "Nominated");
 
 const councilWardsToCandidates = {};
@@ -85,6 +87,8 @@ function extractContactDetails(row) {
   if (row[TWITTER_COLUMN]) candidate.twitter = row[TWITTER_COLUMN][0];
   if (row[LINKEDIN_COLUMN]) candidate.linkedin = row[LINKEDIN_COLUMN][0];
   if (row[INSTAGRAM_COLUMN]) candidate.instagram = row[INSTAGRAM_COLUMN][0];
+
+  if (row[PHOTO_COLUMN]) candidate.photo = `/photos/candidates2022/${row[PHOTO_COLUMN][0].split('/')[4]}`;
 
   return candidate;
 }

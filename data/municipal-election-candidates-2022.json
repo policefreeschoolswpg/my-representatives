@@ -4,7 +4,8 @@
       {
         "name": "Marcel BOILLE",
         "phone": "204-293-1312",
-        "email": "myboille@yahoo.com"
+        "email": "myboille@yahoo.com",
+        "photo": "/photos/candidates2022/MarcelBoille.JPG"
       },
       {
         "name": "Matt ALLARD",
@@ -32,19 +33,22 @@
         "name": "Sherri ROLLINS",
         "phone": "204-583-7553",
         "email": "sherri.rollins@shaw.ca",
-        "website": "http://www.votesherrirollins.ca"
+        "website": "http://www.votesherrirollins.ca",
+        "photo": "/photos/candidates2022/SherriRollins.jpg"
       }
     ],
     "Mynarski": [
       {
         "name": "Aaron McDOWELL",
         "email": "aaronmcdowell2022@gmail.com",
-        "website": "https://www.aaronmcdowell.ca/"
+        "website": "https://www.aaronmcdowell.ca/",
+        "photo": "/photos/candidates2022/AaronMcDowell.jpg"
       },
       {
         "name": "Ed RADCHENKA",
         "phone": "204-2976630",
-        "email": "edradche@gmail.com"
+        "email": "edradche@gmail.com",
+        "photo": "/photos/candidates2022/EdRadchenka.jpg"
       },
       {
         "name": "Natalie SMITH",
@@ -53,7 +57,8 @@
         "website": "http://www.natalie4mynarski.com",
         "facebook": "https://www.facebook.com/nat4mynarski",
         "twitter": "https://twitter.com/Nat4Mynarski",
-        "instagram": "https://www.instagram.com/nat4mynarski/"
+        "instagram": "https://www.instagram.com/nat4mynarski/",
+        "photo": "/photos/candidates2022/NatalieSmith.jpg"
       },
       {
         "name": "Ross EADIE",
@@ -66,7 +71,8 @@
         "email": "steve.for.mynarski@gmail.com",
         "website": "http://www.votesnyder.ca",
         "facebook": "https://www.facebook.com/steve.for.mynarski",
-        "twitter": "https://twitter.com/Steve4Mynarski"
+        "twitter": "https://twitter.com/Steve4Mynarski",
+        "photo": "/photos/candidates2022/SteveSnyder.jpg"
       }
     ],
     "Elmwood-East Kildonan": [
@@ -79,7 +85,8 @@
         "name": "Ryan KOCHIE",
         "phone": "204-557-0156",
         "email": "ryankfor2022@gmail.com",
-        "facebook": "https://www.facebook.com/ryanforelmwoodeastk"
+        "facebook": "https://www.facebook.com/ryanforelmwoodeastk",
+        "photo": "/photos/candidates2022/RyanKochie.jpg"
       }
     ],
     "Charleswood-Tuxedo-Westwood": [
@@ -123,7 +130,8 @@
         "phone": "204-770-7024",
         "email": "brant@brantfield.ca",
         "website": "http://www.brantfield.ca",
-        "twitter": "https://twitter.com/BrantFieldwpg"
+        "twitter": "https://twitter.com/BrantFieldwpg",
+        "photo": "/photos/candidates2022/BrantField.jpeg"
       },
       {
         "name": "Gary LENKO",
@@ -146,7 +154,8 @@
         "facebook": "https://www.facebook.com/profile.php?id=100007148748365",
         "twitter": "https://mobile.twitter.com/JoeApereira",
         "linkedin": "https://ca.linkedin.com/in/joe-pereira-43b8087b",
-        "instagram": "https://www.instagram.com/joepereira3423/"
+        "instagram": "https://www.instagram.com/joepereira3423/",
+        "photo": "/photos/candidates2022/JoePereira.jpg"
       },
       {
         "name": "Moe ELTASSI",
@@ -166,7 +175,8 @@
         "phone": "204-396-0379",
         "email": "VoteLukes@shaw.ca",
         "website": "http://www.VoteLukes.ca",
-        "twitter": "https://twitter.com/janicelukes"
+        "twitter": "https://twitter.com/janicelukes",
+        "photo": "/photos/candidates2022/JaniceLukes.jpg"
       },
       {
         "name": "Pascal SCOTT",
@@ -175,7 +185,8 @@
         "website": "https://www.pascalscott.ca/",
         "twitter": "http://www.twitter.com/votepascal",
         "linkedin": "https://www.linkedin.com/in/pascal-scott-a970983/",
-        "instagram": "http://www.instagram.com/votepascal"
+        "instagram": "http://www.instagram.com/votepascal",
+        "photo": "/photos/candidates2022/PascalScott.jpg"
       }
     ],
     "Transcona": [
@@ -214,7 +225,8 @@
         "email": "daevid@daevidramey.com",
         "website": "https://www.daevidramey.com/",
         "facebook": "https://www.facebook.com/daevidrameystjames",
-        "twitter": "http://www.twitter.com/DaevidRamey"
+        "twitter": "http://www.twitter.com/DaevidRamey",
+        "photo": "/photos/candidates2022/DaevidRamey.jpg"
       },
       {
         "name": "Eddie AYOUB",
@@ -247,7 +259,8 @@
       {
         "name": "Baljeet SHARMA",
         "phone": "204-995-7406",
-        "email": "electbaljeet2019@yahoo.com"
+        "email": "electbaljeet2019@yahoo.com",
+        "photo": "/photos/candidates2022/BaljeetSharma.jpg"
       },
       {
         "name": "Brian MAYES",
@@ -299,7 +312,8 @@
       {
         "name": "Devi Sharma - ACCLAIMED",
         "phone": "431-334-4987",
-        "email": "votedevisharma@gmail.com"
+        "email": "votedevisharma@gmail.com",
+        "photo": "/photos/candidates2022/DeviSharma.jpg"
       }
     ],
     "St. Norbert-Seine River": [
@@ -323,11 +337,13 @@
           "name": "Jamie DUMONT",
           "phone": "431-866-9057",
           "email": "info@jamiedumont.ca",
-          "website": "http://www.jamiedumont.ca"
+          "website": "http://www.jamiedumont.ca",
+          "photo": "/photos/candidates2022/JamieDumont.jpeg"
         },
         {
           "name": "Serena GATTI",
-          "email": "imserenagatti@gmail.com"
+          "email": "imserenagatti@gmail.com",
+          "photo": "/photos/candidates2022/SerenaGattie.jpg"
         }
       ],
       "2": [
@@ -340,7 +356,8 @@
           "name": "Lois BROTHERS",
           "email": "lois@loisbrothers.ca",
           "website": "http://www.loisbrothers.ca",
-          "facebook": "https://www.facebook.com/LoisBrothersWard2%20"
+          "facebook": "https://www.facebook.com/LoisBrothersWard2%20",
+          "photo": "/photos/candidates2022/LoisBrothers.jpg"
         },
         {
           "name": "Tristan MALCOLM",
@@ -354,30 +371,35 @@
           "email": "campaign@hannahforwsd.com",
           "website": "http://www.hannahforwsd.com",
           "facebook": "https://www.facebook.com/HannahForWSD/",
-          "twitter": "https://twitter.com/HDM_Mihychuk"
+          "twitter": "https://twitter.com/HDM_Mihychuk",
+          "photo": "/photos/candidates2022/HannahMihychuk.jpg"
         },
         {
           "name": "Kathy HEPPNER",
           "email": "kathy@kathyheppner.ca",
           "website": "http://www.kathyheppner.ca",
           "facebook": "https://www.facebook.com/heppnerkathy",
-          "twitter": "http://www.twitter.com/HeppnerKathy"
+          "twitter": "http://www.twitter.com/HeppnerKathy",
+          "photo": "/photos/candidates2022/KathyHeppner.jpg"
         },
         {
           "name": "Marilyn SIMON",
           "email": "marilyn@marilynsimon.ca",
           "website": "https://www.marilynsimon.ca/",
-          "facebook": "https://www.facebook.com/DrMarilynSimonWard3/"
+          "facebook": "https://www.facebook.com/DrMarilynSimonWard3/",
+          "photo": "/photos/candidates2022/MarilynSimon.jpg"
         },
         {
           "name": "Marina SHUSTERMAN",
           "phone": "204-284-3236",
-          "email": "marishinka@gmail.com"
+          "email": "marishinka@gmail.com",
+          "photo": "/photos/candidates2022/MarinaShusterman.jpg"
         },
         {
           "name": "Mark TISDALE",
           "phone": "204-290-5081",
-          "email": "mark.tisdale@gmail.com"
+          "email": "mark.tisdale@gmail.com",
+          "photo": "/photos/candidates2022/MarkTisdale.jpg"
         }
       ],
       "4": [
@@ -389,7 +411,8 @@
         {
           "name": "Rebecca CHAMBERS",
           "email": "rebeccachamberswpg@gmail.com",
-          "website": "http://www.RebeccaChambersWpg.com"
+          "website": "http://www.RebeccaChambersWpg.com",
+          "photo": "/photos/candidates2022/RebeccaChambers.jpg"
         }
       ],
       "5": [
@@ -397,24 +420,28 @@
           "name": "Angela ANDERSON JOHNSON",
           "phone": "204-298-7589",
           "email": "angela4wsd1ward5@gmail.com",
-          "website": "https://voteforangela.wordpress.com/"
+          "website": "https://voteforangela.wordpress.com/",
+          "photo": "/photos/candidates2022/AngelaAndersonJohnson.jpg"
         },
         {
           "name": "Colin CHERPAKO",
           "phone": "431-355-5781",
-          "email": "cherpako4trustee@gmail.com"
+          "email": "cherpako4trustee@gmail.com",
+          "photo": "/photos/candidates2022/ColinCherpako.jpg"
         },
         {
           "name": "Dante AVISO",
           "phone": "204-698-3198",
           "email": "dantewsd1@gmail.com",
           "website": "https://danteaviso.ca",
-          "facebook": "http://www.facebook.com/dantewsd1"
+          "facebook": "http://www.facebook.com/dantewsd1",
+          "photo": "/photos/candidates2022/DanteAviso.jpg"
         },
         {
           "name": "Jesse GAIR",
           "email": "jessegair@gmail.com",
-          "website": "http://www.jessegair.com"
+          "website": "http://www.jessegair.com",
+          "photo": "/photos/candidates2022/JesseGair.jpg"
         },
         {
           "name": "Joshua FIDELAK",
@@ -426,12 +453,14 @@
           "phone": "204-297-0730",
           "email": "kevin@kevinfreedman.com",
           "website": "http://www.kevinfreedman.ca",
-          "facebook": "http://www.facebook.com/kevinifreedman"
+          "facebook": "http://www.facebook.com/kevinifreedman",
+          "photo": "/photos/candidates2022/KevinFreedman.jpg"
         },
         {
           "name": "Liz JACKIMEC",
           "phone": "204-298-6741",
-          "email": "ejackimec@gmail.com"
+          "email": "ejackimec@gmail.com",
+          "photo": "/photos/candidates2022/LizJackimec.jpg"
         },
         {
           "name": "Noor ALI",
@@ -455,20 +484,23 @@
           "email": "luannekarn@luannekarnwpg.com",
           "website": "https://www.luannekarnwpg.com/",
           "facebook": "https://www.facebook.com/groups/1491255174644419",
-          "twitter": "https://twitter.com/KarnLuanne"
+          "twitter": "https://twitter.com/KarnLuanne",
+          "photo": "/photos/candidates2022/LuanneKarn.jpg"
         },
         {
           "name": "Perla JAVATE",
           "phone": "204-955-5603",
           "email": "perla@perlajavate.ca",
           "website": "http://www.perlajavate.ca",
-          "facebook": "https://www.facebook.com/Perla-Javate-for-WSD-School%20Trustee-Ward-6-112318831590827"
+          "facebook": "https://www.facebook.com/Perla-Javate-for-WSD-School%20Trustee-Ward-6-112318831590827",
+          "photo": "/photos/candidates2022/PerlaJavate.jpg"
         }
       ],
       "7": [
         {
           "name": "Arlene REID",
-          "email": "reid4trustee@gmail.com"
+          "email": "reid4trustee@gmail.com",
+          "photo": "/photos/candidates2022/ArleneReid.jpg"
         },
         {
           "name": "Tamara KULY",
@@ -476,7 +508,8 @@
           "email": "votetamarakuly@gmail.com",
           "website": "https://www.votetamarakuly.com/",
           "facebook": "https://www.facebook.com/votetamarakuly",
-          "twitter": "https://twitter.com/VoteTamaraKuly"
+          "twitter": "https://twitter.com/VoteTamaraKuly",
+          "photo": "/photos/candidates2022/TamaraKuly.jpg"
         }
       ],
       "8": [
@@ -484,14 +517,16 @@
           "name": "Betty EDEL",
           "phone": "204-589-5584",
           "email": "re.electbettyedel@gmail.com",
-          "website": "http://www.re-electbettyedel.com"
+          "website": "http://www.re-electbettyedel.com",
+          "photo": "/photos/candidates2022/BettyEdel.jpg"
         },
         {
           "name": "Laurie KOZAK",
           "email": "laurie@lauriekozak.ca",
           "website": "http://www.lauriekozak.ca",
           "facebook": "https://www.facebook.com/LaurieKozakWard8/",
-          "instagram": "http://www.instagram.com/lauriekozakward8"
+          "instagram": "http://www.instagram.com/lauriekozakward8",
+          "photo": "/photos/candidates2022/LaurieKozak.jpg"
         },
         {
           "name": "Patrick ALLARD",
@@ -506,7 +541,8 @@
           "phone": "204-915-5940",
           "email": "annevangelistaforschooltrustee@gmail.com",
           "website": "http://annevangelista.ca/",
-          "facebook": "http://www.facebook.com/annevangelistaforschooltrustee"
+          "facebook": "http://www.facebook.com/annevangelistaforschooltrustee",
+          "photo": "/photos/candidates2022/AnnEvangelista.jpg"
         },
         {
           "name": "Dana BROWN"
@@ -519,12 +555,14 @@
         {
           "name": "Linda SCHATKOWSKY",
           "phone": "204-299-8984",
-          "email": "lschatkowsky@outlook.com"
+          "email": "lschatkowsky@outlook.com",
+          "photo": "/photos/candidates2022/LindaSchatkowsky.jpg"
         },
         {
           "name": "Parm DHILLON",
           "phone": "204-229-9944",
-          "email": "votedhillon@gmail.com"
+          "email": "votedhillon@gmail.com",
+          "photo": "/photos/candidates2022/ParmDhillon.jpg"
         }
       ]
     },
@@ -533,20 +571,23 @@
         {
           "name": "Derek DABEE",
           "phone": "204-779-6101",
-          "email": "ddabee@mymts.net"
+          "email": "ddabee@mymts.net",
+          "photo": "/photos/candidates2022/DerekDabee.jpg"
         },
         {
           "name": "Diane CAMERON",
           "phone": "204-334-4902",
           "email": "dianehelencameron@gmail.com",
           "facebook": "http://www.facebook.com/DianeCameron",
-          "instagram": "http://www.instagram.com/dianecamerontrustee7oaks"
+          "instagram": "http://www.instagram.com/dianecamerontrustee7oaks",
+          "photo": "/photos/candidates2022/DianeCameron.jpg"
         },
         {
           "name": "Greg McFARLANE",
           "phone": "204-479-4941",
           "email": "ReElectGreg2022@gmail.com",
-          "facebook": "https://www.facebook.com/ReElectGreg2022"
+          "facebook": "https://www.facebook.com/ReElectGreg2022",
+          "photo": "/photos/candidates2022/GregMcFarlane.JPG"
         },
         {
           "name": "Gursharn WANDER",
@@ -554,14 +595,16 @@
           "email": "wanderfor7oaks@gmail.com",
           "website": "https://www.gursharnwander.ca",
           "facebook": "https://www.facebook.com/wanderfor7oaks",
-          "instagram": "https://www.instagram.com/wanderfor7oaks/"
+          "instagram": "https://www.instagram.com/wanderfor7oaks/",
+          "photo": "/photos/candidates2022/GursharnWander.jpg"
         },
         {
           "name": "Jas HARI",
           "phone": "204-230-9260",
           "email": "Jasharifor7oaks@gmail.com",
           "facebook": "https://www.facebook.com/Jas-Hari-for-7-Oaks-103736709174526/",
-          "instagram": "https://instagram.com/jashari_for7oaks?igshid=ZjA0NjI3M2I="
+          "instagram": "https://instagram.com/jashari_for7oaks?igshid=ZjA0NjI3M2I=",
+          "photo": "/photos/candidates2022/JasHari.jpg"
         },
         {
           "name": "Maria SANTOS",
@@ -587,11 +630,13 @@
           "website": "http://www.evankrosney.ca",
           "facebook": "https://www.facebook.com/evan.krosney/",
           "twitter": "https://twitter.com/EvanKrosney",
-          "instagram": "https://www.instagram.com/actuallyevankrosney/"
+          "instagram": "https://www.instagram.com/actuallyevankrosney/",
+          "photo": "/photos/candidates2022/EvanKrosney.jpg"
         },
         {
           "name": "Jessica BRIDGES",
-          "email": "jessica.bridges204@gmail.com"
+          "email": "jessica.bridges204@gmail.com",
+          "photo": "/photos/candidates2022/JessicaBridges.jpg"
         },
         {
           "name": "Rachhvir DHALIWAL",
@@ -599,13 +644,15 @@
           "email": "rachhvirfor7oaks@rachhvirdhaliwal.ca",
           "website": "https://rachhvirdhaliwal.ca/",
           "facebook": "https://www.facebook.com/Rachhvir-Dhaliwal-105190395691761",
-          "instagram": "https://www.instagram.com/rachhvirfor7oaks/"
+          "instagram": "https://www.instagram.com/rachhvirfor7oaks/",
+          "photo": "/photos/candidates2022/RachhvirDhaliwal.jpg"
         },
         {
           "name": "Richard SAWKA",
           "phone": "204-806-0075",
           "email": "richard.sawka2022@gmail.com",
-          "facebook": "http://www.facebook.com/richard.sawka.35"
+          "facebook": "http://www.facebook.com/richard.sawka.35",
+          "photo": "/photos/candidates2022/RichardSawka.jpg"
         },
         {
           "name": "Teresa JAWORSKI",
@@ -626,7 +673,8 @@
         {
           "name": "Michael CABRAL",
           "phone": "204-997-5021",
-          "email": "mikecabral4schools@gmail.com"
+          "email": "mikecabral4schools@gmail.com",
+          "photo": "/photos/candidates2022/MichaelCabral.jpg"
         },
         {
           "name": "Pierre ATTALLAH",
@@ -644,7 +692,8 @@
         {
           "name": "Cheryl SMUKOWICH",
           "phone": "204-885-0054",
-          "email": "cheryl.smukowich@gmail.com"
+          "email": "cheryl.smukowich@gmail.com",
+          "photo": "/photos/candidates2022/CherylSmukowich.jpg"
         },
         {
           "name": "Fiona SHIELLS",
@@ -655,18 +704,21 @@
           "name": "Gus WATANABE",
           "phone": "guswatanabesjdsward3@gmail.com",
           "website": "https://www.guswatanabesjasdward3.com/",
-          "twitter": "https://twitter.com/GusWatanabe"
+          "twitter": "https://twitter.com/GusWatanabe",
+          "photo": "/photos/candidates2022/GusWatanabe.jpg"
         },
         {
           "name": "Sandy LETHBRIDGE",
           "phone": "204-951-9686",
-          "email": "sandylethbridgewestward@shaw.ca"
+          "email": "sandylethbridgewestward@shaw.ca",
+          "photo": "/photos/candidates2022/SandyLethbridge.JPG"
         },
         {
           "name": "Zachary LINNICK",
           "phone": "204-807-3422",
           "email": "zlinnick@gmail.com",
-          "website": "http://www.zacharylinnick.ca"
+          "website": "http://www.zacharylinnick.ca",
+          "photo": "/photos/candidates2022/ZacharyLinnick.jpg"
         }
       ],
       "East": [
@@ -674,7 +726,8 @@
           "name": "Angela DUNN",
           "phone": "204-979-7887",
           "email": "Angelaforstjamesassiniboia@outlook.com",
-          "facebook": "https://www.facebook.com/profile.php?id=100085140161182"
+          "facebook": "https://www.facebook.com/profile.php?id=100085140161182",
+          "photo": "/photos/candidates2022/AngelaDunn.jpg"
         },
         {
           "name": "Holly HUNTER",
@@ -684,18 +737,21 @@
           "facebook": "https://www.facebook.com/hollyhunter725/",
           "twitter": "https://twitter.com/hollyhunter725",
           "linkedin": "https://www.linkedin.com/in/hollyhunter725/",
-          "instagram": "https://www.instagram.com/hollyhunter725/"
+          "instagram": "https://www.instagram.com/hollyhunter725/",
+          "photo": "/photos/candidates2022/HollyHunter.jpg"
         },
         {
           "name": "Leela SCHREYER GARRITY",
-          "email": "leelatrustee@gmail.com"
+          "email": "leelatrustee@gmail.com",
+          "photo": "/photos/candidates2022/LeelaSchreyerGarrity.jpg"
         },
         {
           "name": "Tara SMITH",
           "email": "tarafortrustee@gmail.com",
           "website": "http://Tarasmithfortrustee.ca",
           "facebook": "https://www.facebook.com/TaraSmithforschooltrustee",
-          "instagram": "https://www.instagram.com/tarasmithfortrustee%20"
+          "instagram": "https://www.instagram.com/tarasmithfortrustee%20",
+          "photo": "/photos/candidates2022/TaraSmith.jpg"
         },
         {
           "name": "Vicki REMPEL"
@@ -721,7 +777,8 @@
           "phone": "204-999-2132",
           "email": "amalia@freshchalk.ca",
           "website": "http://www.freshchalk.ca",
-          "facebook": "https://www.facebook.com/amaliaschooltrustee"
+          "facebook": "https://www.facebook.com/amaliaschooltrustee",
+          "photo": "/photos/candidates2022/AmaliaSlobogian.jpg"
         },
         {
           "name": "Curtis BILEWITCH",
@@ -734,7 +791,8 @@
           "name": "Glenn BUFFIE",
           "phone": "204-228-4666",
           "email": "glenn.buffie@gmail.com",
-          "website": "http://www.glennbuffie4RESTDschooltrustee.com"
+          "website": "http://www.glennbuffie4RESTDschooltrustee.com",
+          "photo": "/photos/candidates2022/GlennBuffie.jpg"
         },
         {
           "name": "Rod GIESBRECHT",
@@ -755,7 +813,8 @@
           "email": "votebrianne@gmail.com",
           "website": "http://www.briannegoertzen.ca",
           "facebook": "http://www.facebook.com/electbrianne",
-          "twitter": "http://www.twitter.com/BriGoertzen"
+          "twitter": "http://www.twitter.com/BriGoertzen",
+          "photo": "/photos/candidates2022/BrianneGoertzen.jpg"
         },
         {
           "name": "Keith MORRISON",
@@ -764,13 +823,15 @@
           "website": "http://www.keithmorrison88.ca",
           "facebook": "https://www.facebook.com/profile.php?id=100082302651308",
           "twitter": "http://www.twitter.com/KeithMorrison88",
-          "instagram": "http://www.instagram.com/morrison4ward3"
+          "instagram": "http://www.instagram.com/morrison4ward3",
+          "photo": "/photos/candidates2022/KeithMorrison.jpg"
         },
         {
           "name": "Matthew PARKINSON",
           "phone": "204-583-6998",
           "email": "mparkins711@live.com",
-          "website": "http://www.matthewforward3.ca"
+          "website": "http://www.matthewforward3.ca",
+          "photo": "/photos/candidates2022/MatthewParkinson.jpg"
         }
       ],
       "4": [
@@ -780,21 +841,24 @@
           "email": "brendabage@gmail.com",
           "facebook": "https://www.facebook.com/BageForRETSD",
           "twitter": "https://twitter.com/BageForRETSD",
-          "instagram": "http://www.instagram.com/bageforretsd"
+          "instagram": "http://www.instagram.com/bageforretsd",
+          "photo": "/photos/candidates2022/BrendaBage.jpg"
         },
         {
           "name": "Peter KOTYK",
           "phone": "204-668-4181"
         },
         {
-          "name": "Rob GIGIEL"
+          "name": "Rob GIGIEL",
+          "photo": "/photos/candidates2022/RobGigiel.jpg"
         },
         {
           "name": "Susan OLYNIK",
           "phone": "204-661-6440",
           "email": "susan168823@gmail.com",
           "facebook": "https://www.facebook.com/susanolyniktrustee/",
-          "linkedin": "https://ca.linkedin.com/in/susan-olynik-888a5b26"
+          "linkedin": "https://ca.linkedin.com/in/susan-olynik-888a5b26",
+          "photo": "/photos/candidates2022/SusanOlynik.jpg"
         }
       ]
     },
@@ -803,17 +867,20 @@
         {
           "name": "Amie GREEN",
           "email": "amiefortrustee@gmail.com",
-          "website": "http://www.voteamie.org"
+          "website": "http://www.voteamie.org",
+          "photo": "/photos/candidates2022/AmieGreen.jpg"
         },
         {
           "name": "Cindy TURNER",
           "phone": "204-233-7507",
           "email": "cjturner@mts.net",
-          "facebook": "http://www.facebook.com/voteforcindyturner"
+          "facebook": "http://www.facebook.com/voteforcindyturner",
+          "photo": "/photos/candidates2022/CindyTurner.JPG"
         },
         {
           "name": "Francine CHAMPAGNE",
-          "email": "francine4trustee@hotmail.com"
+          "email": "francine4trustee@hotmail.com",
+          "photo": "/photos/candidates2022/FrancineChampagne.jpg"
         },
         {
           "name": "Jason KOCHIE",
@@ -822,7 +889,8 @@
         {
           "name": "Michael YEO",
           "email": "mike@theyeo.com",
-          "website": "http://michaelyeo.ca/"
+          "website": "http://michaelyeo.ca/",
+          "photo": "/photos/candidates2022/MichaelYeo.jpg"
         },
         {
           "name": "Tom PARKER",
@@ -833,18 +901,21 @@
         {
           "name": "Chris SIGURDSON",
           "phone": "204-470-8713",
-          "email": "sigurd01@shaw.ca"
+          "email": "sigurd01@shaw.ca",
+          "photo": "/photos/candidates2022/ChrisSigurdson.jpg"
         },
         {
           "name": "Irene NORDHEIM",
           "phone": "204-290-3739",
           "email": "nordheimirene@gmail.com",
-          "website": "http://www.votenordheim.com"
+          "website": "http://www.votenordheim.com",
+          "photo": "/photos/candidates2022/IreneNordheim.jpg"
         },
         {
           "name": "Robert PAGE",
           "phone": "204-541-1303",
-          "email": "robertwpage@hotmail.com"
+          "email": "robertwpage@hotmail.com",
+          "photo": "/photos/candidates2022/RobertPage.jpg"
         }
       ],
       "3": [
@@ -859,13 +930,15 @@
           "email": "darlenegerrior@gmail.com",
           "facebook": "https://m.facebook.com/people/Darlene-Gerrior/100083972238130/?comment_id=Y29tbWVudDo1NTM5NDcxMzk2MTE1MTE4XzQ3OTY3Mzg0NzMyMjA5MA%3D%3D",
           "twitter": "https://twitter.com/darlenegerrior?s=21&t=Aj8BZpsQFW_Lcef3mwsRBA",
-          "instagram": "https://instagram.com/darlenegfortrusteeward3?igshid=NjZiMGI4OTY="
+          "instagram": "https://instagram.com/darlenegfortrusteeward3?igshid=NjZiMGI4OTY=",
+          "photo": "/photos/candidates2022/DarleneGarrior.jpg"
         },
         {
           "name": "Ryan PALMQUIST",
           "phone": "204-202-6770",
           "email": "ryan.m.palmquist@gmail.com",
-          "facebook": "https://www.facebook.com/RyanPalmquistStVital/"
+          "facebook": "https://www.facebook.com/RyanPalmquistStVital/",
+          "photo": "/photos/candidates2022/RyanPalmquist.jpg"
         },
         {
           "name": "Sandy NEMETH",
@@ -874,19 +947,22 @@
           "facebook": "http://www.facebook.com/sandy.nemeth.1",
           "twitter": "http://www.twitter.com/sandynemeth",
           "linkedin": "https://ca.linkedin.com/in/sandy-nemeth-26899488%20%20",
-          "instagram": "http://www.instagram.com/sandynemethward3"
+          "instagram": "http://www.instagram.com/sandynemethward3",
+          "photo": "/photos/candidates2022/SandyNemeth.jpg"
         },
         {
           "name": "Selina BIEBER",
           "email": "selinabieber@gmx.ca",
-          "website": "http://www.selinabieber.ca"
+          "website": "http://www.selinabieber.ca",
+          "photo": "/photos/candidates2022/SelinaBieber.jpg"
         }
       ],
       "4": [
         {
           "name": "Chipalo Simunyola - ACCLAIMED",
           "phone": "204-688-7479",
-          "email": "csimunyola@gmail.com"
+          "email": "csimunyola@gmail.com",
+          "photo": "/photos/candidates2022/ChipaloSimunyola.jpg"
         },
         {
           "name": "Pamela Kolochuk - ACCLAIMED",
@@ -902,22 +978,26 @@
           "phone": "204-781-5622",
           "email": "craig.stahlke.trustee@gmail.com",
           "website": "http://www.stahlkefortrustee.com",
-          "twitter": "https://twitter.com/craigfortrustee"
+          "twitter": "https://twitter.com/craigfortrustee",
+          "photo": "/photos/candidates2022/CraigStahlke.jpg"
         },
         {
           "name": "Dick EASTLAND",
-          "email": "trusteedick151@gmail.com"
+          "email": "trusteedick151@gmail.com",
+          "photo": "/photos/candidates2022/DickEastland.jpg"
         },
         {
           "name": "Donald BENSON",
           "phone": "204-955-5042",
-          "email": "dbenson57@shaw.ca"
+          "email": "dbenson57@shaw.ca",
+          "photo": "/photos/candidates2022/DonaldBenson.jpg"
         },
         {
           "name": "Linda KARN",
           "phone": "204-888-5974",
           "email": "Linda.Karn@proton.me",
-          "website": "https://lindakarn5.wixsite.com/trustee"
+          "website": "https://lindakarn5.wixsite.com/trustee",
+          "photo": "/photos/candidates2022/LindaKarn.jpg"
         },
         {
           "name": "Nic DEVINE",
@@ -928,7 +1008,8 @@
           "name": "Stu NIXON",
           "phone": "204-226-7141",
           "email": "smenixon@gmail.com",
-          "website": "https://stunixon.wordpress.com/"
+          "website": "https://stunixon.wordpress.com/",
+          "photo": "/photos/candidates2022/StuNixon.jpg"
         }
       ],
       "2": [
@@ -941,18 +1022,21 @@
           "name": "David JOHNSON",
           "phone": "204-228-5858",
           "email": "davidjohnson623@gmail.com",
-          "website": "http://www.davidjohnson2022.ca"
+          "website": "http://www.davidjohnson2022.ca",
+          "photo": "/photos/candidates2022/DavidJohnson.jpg"
         },
         {
           "name": "Tim JOHNSON",
           "phone": "204.290.6091",
-          "email": "Reelecttimjohnson2022@gmail.com"
+          "email": "Reelecttimjohnson2022@gmail.com",
+          "photo": "/photos/candidates2022/TimJohnson.jpg"
         },
         {
           "name": "Todd McDOUGALL",
           "phone": "204-333-3385",
           "email": "toddmcdougall4trustee@gmail.com",
-          "facebook": "https://www.facebook.com/profile.php?id=100086378280975"
+          "facebook": "https://www.facebook.com/profile.php?id=100086378280975",
+          "photo": "/photos/candidates2022/ToddMcDougall.jpg"
         }
       ],
       "3": [
@@ -968,7 +1052,8 @@
           "website": "http://www.votecindy.ca",
           "facebook": "https://www.facebook.com/cindynachtigallschooltrustee/",
           "twitter": "https://twitter.com/cindynachtigall",
-          "linkedin": "https://www.linkedin.com/in/cindy-nachtigall"
+          "linkedin": "https://www.linkedin.com/in/cindy-nachtigall",
+          "photo": "/photos/candidates2022/CindyNachtigall.jpg"
         },
         {
           "name": "Jasmine BRAR",
@@ -977,13 +1062,15 @@
           "facebook": "http://www.Facebook.com/JasmineBrar",
           "twitter": "http://www.twitter.com/jasminebrar12",
           "linkedin": "https://www.linkedin.com/in/jasmine-brar-7b0741114",
-          "instagram": "http://www.instagram.com/jasminebrar12%20"
+          "instagram": "http://www.instagram.com/jasminebrar12%20",
+          "photo": "/photos/candidates2022/JasmineBrar.jpg"
         },
         {
           "name": "Saima AZIZ",
           "phone": "204-939-1972",
           "facebook": "https://www.facebook.com/profile.php?id=100085267069904",
-          "linkedin": "https://www.linkedin.com/in/saima-aziz-53a04081/"
+          "linkedin": "https://www.linkedin.com/in/saima-aziz-53a04081/",
+          "photo": "/photos/candidates2022/SaimaAziz.jpg"
         }
       ]
     }

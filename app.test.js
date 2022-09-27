@@ -30,13 +30,15 @@ it('responds to a location query', async done => {
     "email": "luannekarn@luannekarnwpg.com",
     "website": "https://www.luannekarnwpg.com/",
     "facebook": "https://www.facebook.com/groups/1491255174644419",
-    "twitter": "https://twitter.com/KarnLuanne"
+    "twitter": "https://twitter.com/KarnLuanne",
+    photo: '/photos/candidates2022/LuanneKarn.jpg',
   }, {
     "name": "Perla JAVATE",
     "phone": "204-955-5603",
     "email": "perla@perlajavate.ca",
     "website": "http://www.perlajavate.ca",
-    "facebook": "https://www.facebook.com/Perla-Javate-for-WSD-School%20Trustee-Ward-6-112318831590827"
+    "facebook": "https://www.facebook.com/Perla-Javate-for-WSD-School%20Trustee-Ward-6-112318831590827",
+    photo: '/photos/candidates2022/PerlaJavate.jpg',
   }]);
 
   expect(response.body.council.ward).toBe('Point Douglas');
@@ -57,6 +59,7 @@ it('responds to a location query', async done => {
     "twitter": "https://mobile.twitter.com/JoeApereira",
     "linkedin": "https://ca.linkedin.com/in/joe-pereira-43b8087b",
     "instagram": "https://www.instagram.com/joepereira3423/",
+    photo: '/photos/candidates2022/JoePereira.jpg',
   }, {
     "name": "Moe ELTASSI",
     "phone": "204-430-2976",
