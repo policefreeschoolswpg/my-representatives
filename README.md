@@ -82,6 +82,7 @@ These governing bodies shamefully lack official structured data sources to enume
 
 ## Avenues for improvement
 
+* code autoformatting
 * testing in CI
 * versioning
 * support for historic data vs just “right now”
