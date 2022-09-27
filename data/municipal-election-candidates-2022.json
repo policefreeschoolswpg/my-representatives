@@ -1,0 +1,991 @@
+{
+  "council": {
+    "St. Boniface": [
+      {
+        "name": "Marcel BOILLE",
+        "phone": "204-293-1312",
+        "email": "myboille@yahoo.com"
+      },
+      {
+        "name": "Matt ALLARD",
+        "phone": "431-998-VOTE",
+        "email": "info@mattallard.ca",
+        "website": "http://www.mattallard.ca"
+      },
+      {
+        "name": "Nicholas DOUKLIAS",
+        "phone": "204-779-4922",
+        "email": "vote@nicholasdouklias.ca",
+        "website": "http://www.nicholasdouklias.ca",
+        "facebook": "https://www.facebook.com/doukliassaintboniface/",
+        "instagram": "https://www.instagram.com/nicholasdouklias/"
+      }
+    ],
+    "Fort Rouge-East Fort Garry": [
+      {
+        "name": "Michael THOMPSON",
+        "phone": "204-282-3098",
+        "email": "votemichaelt@shaw.ca",
+        "website": "http://www.michaelt4forts.com"
+      },
+      {
+        "name": "Sherri ROLLINS",
+        "phone": "204-583-7553",
+        "email": "sherri.rollins@shaw.ca",
+        "website": "http://www.votesherrirollins.ca"
+      }
+    ],
+    "Mynarski": [
+      {
+        "name": "Aaron McDOWELL",
+        "email": "aaronmcdowell2022@gmail.com",
+        "website": "https://www.aaronmcdowell.ca/"
+      },
+      {
+        "name": "Ed RADCHENKA",
+        "phone": "204-2976630",
+        "email": "edradche@gmail.com"
+      },
+      {
+        "name": "Natalie SMITH",
+        "phone": "204-381-1273",
+        "email": "natalie4mynarski@gmail.com",
+        "website": "http://www.natalie4mynarski.com",
+        "facebook": "https://www.facebook.com/nat4mynarski",
+        "twitter": "https://twitter.com/Nat4Mynarski",
+        "instagram": "https://www.instagram.com/nat4mynarski/"
+      },
+      {
+        "name": "Ross EADIE",
+        "phone": "204-306-8893",
+        "email": "ross@rosseadie.ca"
+      },
+      {
+        "name": "Steve SNYDER",
+        "phone": "431-668-9875",
+        "email": "steve.for.mynarski@gmail.com",
+        "website": "http://www.votesnyder.ca",
+        "facebook": "https://www.facebook.com/steve.for.mynarski",
+        "twitter": "https://twitter.com/Steve4Mynarski"
+      }
+    ],
+    "Elmwood-East Kildonan": [
+      {
+        "name": "Jason SCHREYER",
+        "phone": "431-293-1540",
+        "email": "jasonschreyercampaign@gmail.com"
+      },
+      {
+        "name": "Ryan KOCHIE",
+        "phone": "204-557-0156",
+        "email": "ryankfor2022@gmail.com",
+        "facebook": "https://www.facebook.com/ryanforelmwoodeastk"
+      }
+    ],
+    "Charleswood-Tuxedo-Westwood": [
+      {
+        "name": "Brad GROSS",
+        "phone": "204-509-7653",
+        "email": "509sold@gmail.com",
+        "website": "https://votegross.ca/"
+      },
+      {
+        "name": "Evan DUNCAN",
+        "phone": "204-995-6162",
+        "email": "voteevanduncan@gmail.com",
+        "website": "http://www.voteevanduncan.ca",
+        "facebook": "https://www.facebook.com/voteevanduncan/",
+        "twitter": "https://twitter.com/voteevanduncan",
+        "instagram": "https://www.instagram.com/voteevanduncan/"
+      },
+      {
+        "name": "Gordon PENNER",
+        "phone": "431-668-2364",
+        "email": "gbp65@mymts.net",
+        "website": "http://www.votegordonpenner.ca"
+      },
+      {
+        "name": "Hal ANDERSON",
+        "phone": "204-298-4001",
+        "email": "Hal@HalAnderson.ca",
+        "website": "http://halanderson.ca"
+      },
+      {
+        "name": "Steven MINION",
+        "phone": "431-557-7258",
+        "email": "stevenlminion@earthmasteringbeinghuman.ca",
+        "website": "https://earthmasteringbeinghuman.ca/mayor/"
+      }
+    ],
+    "River Heights-Fort Garry": [
+      {
+        "name": "Brant FIELD",
+        "phone": "204-770-7024",
+        "email": "brant@brantfield.ca",
+        "website": "http://www.brantfield.ca",
+        "twitter": "https://twitter.com/BrantFieldwpg"
+      },
+      {
+        "name": "Gary LENKO",
+        "phone": "204-510-0099",
+        "email": "garylenko@gmail.com"
+      },
+      {
+        "name": "John ORLIKOW",
+        "phone": "204-479-5646",
+        "email": "reelect@orlikow.ca",
+        "website": "https://reelect.orlikow.ca/"
+      }
+    ],
+    "Point Douglas": [
+      {
+        "name": "Joe PEREIRA",
+        "phone": "204-782-1047",
+        "email": "Joe.Pereira@shaw.ca",
+        "website": "http://www.votejoepereira.ca",
+        "facebook": "https://www.facebook.com/profile.php?id=100007148748365",
+        "twitter": "https://mobile.twitter.com/JoeApereira",
+        "linkedin": "https://ca.linkedin.com/in/joe-pereira-43b8087b",
+        "instagram": "https://www.instagram.com/joepereira3423/"
+      },
+      {
+        "name": "Moe ELTASSI",
+        "phone": "204-430-2976",
+        "email": "info@votemoeeltassi.com",
+        "website": "http://votemoeeltassi.com"
+      },
+      {
+        "name": "Vivian SANTOS",
+        "email": "info@vivian4pointdouglas.ca",
+        "website": "http://www.vivian4pointdouglas.ca"
+      }
+    ],
+    "Waverley West": [
+      {
+        "name": "Janice LUKES",
+        "phone": "204-396-0379",
+        "email": "VoteLukes@shaw.ca",
+        "website": "http://www.VoteLukes.ca",
+        "twitter": "https://twitter.com/janicelukes"
+      },
+      {
+        "name": "Pascal SCOTT",
+        "phone": "431-388-2018",
+        "email": "pascal@pascalscott.ca",
+        "website": "https://www.pascalscott.ca/",
+        "twitter": "http://www.twitter.com/votepascal",
+        "linkedin": "https://www.linkedin.com/in/pascal-scott-a970983/",
+        "instagram": "http://www.instagram.com/votepascal"
+      }
+    ],
+    "Transcona": [
+      {
+        "name": "Russ WYATT",
+        "phone": "204-222-2930",
+        "email": "realrusswyatt@gmail.com",
+        "website": "http://www.russwyatt.ca"
+      },
+      {
+        "name": "Shawn NASON",
+        "email": "shawn@votenason.ca",
+        "website": "http://www.votenason.ca",
+        "facebook": "https://www.facebook.com/ShawnNasonTranscona",
+        "instagram": "https://www.instagram.com/shawnnasontranscona/?hl=en"
+      },
+      {
+        "name": "Steve LIPISCHAK",
+        "phone": "431-792-2662",
+        "email": "steve4transcona@gmail.com",
+        "website": "http://steve4transcona.com",
+        "facebook": "https://www.facebook.com/steve4transcona",
+        "twitter": "https://twitter.com/steve4transcona",
+        "instagram": "https://www.instagram.com/steve4transcona/"
+      },
+      {
+        "name": "Wally WELECHENKO",
+        "phone": "204-224-8559",
+        "email": "walwel2022@outlook.com"
+      }
+    ],
+    "St. James": [
+      {
+        "name": "Daevid RAMEY",
+        "phone": "204-819-1237",
+        "email": "daevid@daevidramey.com",
+        "website": "https://www.daevidramey.com/",
+        "facebook": "https://www.facebook.com/daevidrameystjames",
+        "twitter": "http://www.twitter.com/DaevidRamey"
+      },
+      {
+        "name": "Eddie AYOUB",
+        "email": "elect.eddie.for.st.james@gmail.com",
+        "website": "http://elect-eddie-for-stjames.com"
+      },
+      {
+        "name": "Kelly RYBACK",
+        "phone": "431-441-2555",
+        "email": "info@ryback.ca",
+        "website": "https://ryback.ca",
+        "facebook": "https://www.facebook.com/groups/288816829999267",
+        "twitter": "https://twitter.com/Ryback4StJames",
+        "linkedin": "https://www.linkedin.com/in/kelly-ryback-2b977634/",
+        "instagram": "https://www.instagram.com/ryback4stjames/"
+      },
+      {
+        "name": "Shawn DOBSON",
+        "phone": "204-837-2996",
+        "email": "stdobson01@gmail.com"
+      },
+      {
+        "name": "Tim DIACK",
+        "phone": "431-877-2582",
+        "email": "tdiack@mymts.net",
+        "website": "http://www.diack4stjames.ca"
+      }
+    ],
+    "St. Vital": [
+      {
+        "name": "Baljeet SHARMA",
+        "phone": "204-995-7406",
+        "email": "electbaljeet2019@yahoo.com"
+      },
+      {
+        "name": "Brian MAYES",
+        "phone": "204-255-4909",
+        "email": "mayesbrian22@gmail.com",
+        "website": "http://www.mayes2022.com"
+      },
+      {
+        "name": "Derrick DUJLOVIC",
+        "email": "derrickforstvital@gmail.com",
+        "website": "http://www.derrickforstvital.ca",
+        "facebook": "https://www.facebook.com/derrickforstvital/"
+      }
+    ],
+    "Daniel McIntyre": [
+      {
+        "name": "Cindy GILROY",
+        "phone": "431-293-0173",
+        "email": "votecindygilroy@gmail.com",
+        "website": "http://www.votecindygilroy.com"
+      },
+      {
+        "name": "Omar KINNARATH",
+        "phone": "431-374-2772",
+        "email": "OK4DMC@gmail.com",
+        "website": "http://www.Ok4dmc.ca"
+      },
+      {
+        "name": "Sal INFANTINO",
+        "phone": "204-899-1031",
+        "email": "info@votesal.ca",
+        "website": "http://www.votesal.ca"
+      }
+    ],
+    "North Kildonan": [
+      {
+        "name": "Andrew PODOLECKI",
+        "phone": "204-226-1395",
+        "email": "electandrewp@gmail.com",
+        "website": "http://www.electandrewp.com"
+      },
+      {
+        "name": "Jeff BROWATY",
+        "phone": "204-663-4157",
+        "email": "info@jeffbrowaty.com"
+      }
+    ],
+    "Old Kildonan": [
+      {
+        "name": "Devi Sharma - ACCLAIMED",
+        "phone": "431-334-4987",
+        "email": "votedevisharma@gmail.com"
+      }
+    ],
+    "St. Norbert-Seine River": [
+      {
+        "name": "Markus Chambers - ACCLAIMED",
+        "phone": "204-390-2155",
+        "email": "reelectmarkuschambers@gmail.com",
+        "website": "http://www.markuschambers.com"
+      }
+    ]
+  },
+  "schools": {
+    "Winnipeg": {
+      "1": [
+        {
+          "name": "Chris WILSON",
+          "phone": "204-583-4608",
+          "email": "cjpw@shaw.ca"
+        },
+        {
+          "name": "Jamie DUMONT",
+          "phone": "431-866-9057",
+          "email": "info@jamiedumont.ca",
+          "website": "http://www.jamiedumont.ca"
+        },
+        {
+          "name": "Serena GATTI",
+          "email": "imserenagatti@gmail.com"
+        }
+      ],
+      "2": [
+        {
+          "name": "Chris BROUGHTON",
+          "phone": "204-509-8642",
+          "email": "broughton.cds@gmail.com"
+        },
+        {
+          "name": "Lois BROTHERS",
+          "email": "lois@loisbrothers.ca",
+          "website": "http://www.loisbrothers.ca",
+          "facebook": "https://www.facebook.com/LoisBrothersWard2%20"
+        },
+        {
+          "name": "Tristan MALCOLM",
+          "email": "tristan4trustee@outlook.com"
+        }
+      ],
+      "3": [
+        {
+          "name": "Hannah MIHYCHUK MARSHALL",
+          "phone": "431-489-2562",
+          "email": "campaign@hannahforwsd.com",
+          "website": "http://www.hannahforwsd.com",
+          "facebook": "https://www.facebook.com/HannahForWSD/",
+          "twitter": "https://twitter.com/HDM_Mihychuk"
+        },
+        {
+          "name": "Kathy HEPPNER",
+          "email": "kathy@kathyheppner.ca",
+          "website": "http://www.kathyheppner.ca",
+          "facebook": "https://www.facebook.com/heppnerkathy",
+          "twitter": "http://www.twitter.com/HeppnerKathy"
+        },
+        {
+          "name": "Marilyn SIMON",
+          "email": "marilyn@marilynsimon.ca",
+          "website": "https://www.marilynsimon.ca/",
+          "facebook": "https://www.facebook.com/DrMarilynSimonWard3/"
+        },
+        {
+          "name": "Marina SHUSTERMAN",
+          "phone": "204-284-3236",
+          "email": "marishinka@gmail.com"
+        },
+        {
+          "name": "Mark TISDALE",
+          "phone": "204-290-5081",
+          "email": "mark.tisdale@gmail.com"
+        }
+      ],
+      "4": [
+        {
+          "name": "Erin GLOVER",
+          "phone": "204-918-6012",
+          "email": "ewood085@gmail.com"
+        },
+        {
+          "name": "Rebecca CHAMBERS",
+          "email": "rebeccachamberswpg@gmail.com",
+          "website": "http://www.RebeccaChambersWpg.com"
+        }
+      ],
+      "5": [
+        {
+          "name": "Angela ANDERSON JOHNSON",
+          "phone": "204-298-7589",
+          "email": "angela4wsd1ward5@gmail.com",
+          "website": "https://voteforangela.wordpress.com/"
+        },
+        {
+          "name": "Colin CHERPAKO",
+          "phone": "431-355-5781",
+          "email": "cherpako4trustee@gmail.com"
+        },
+        {
+          "name": "Dante AVISO",
+          "phone": "204-698-3198",
+          "email": "dantewsd1@gmail.com",
+          "website": "https://danteaviso.ca",
+          "facebook": "http://www.facebook.com/dantewsd1"
+        },
+        {
+          "name": "Jesse GAIR",
+          "email": "jessegair@gmail.com",
+          "website": "http://www.jessegair.com"
+        },
+        {
+          "name": "Joshua FIDELAK",
+          "phone": "204-918-0688",
+          "email": "joshfidelak@gmail.com"
+        },
+        {
+          "name": "Kevin FREEDMAN",
+          "phone": "204-297-0730",
+          "email": "kevin@kevinfreedman.com",
+          "website": "http://www.kevinfreedman.ca",
+          "facebook": "http://www.facebook.com/kevinifreedman"
+        },
+        {
+          "name": "Liz JACKIMEC",
+          "phone": "204-298-6741",
+          "email": "ejackimec@gmail.com"
+        },
+        {
+          "name": "Noor ALI",
+          "phone": "204-557-7349",
+          "email": "nuru-1000@hotmail.com"
+        },
+        {
+          "name": "Omar RAHIMI",
+          "phone": "204-960-5873",
+          "email": "rahimiomar066@gmail.com"
+        }
+      ],
+      "6": [
+        {
+          "name": "Jamie BONNER",
+          "email": "info@jamiebonner.com"
+        },
+        {
+          "name": "Luanne KARN",
+          "phone": "204-999-8639",
+          "email": "luannekarn@luannekarnwpg.com",
+          "website": "https://www.luannekarnwpg.com/",
+          "facebook": "https://www.facebook.com/groups/1491255174644419",
+          "twitter": "https://twitter.com/KarnLuanne"
+        },
+        {
+          "name": "Perla JAVATE",
+          "phone": "204-955-5603",
+          "email": "perla@perlajavate.ca",
+          "website": "http://www.perlajavate.ca",
+          "facebook": "https://www.facebook.com/Perla-Javate-for-WSD-School%20Trustee-Ward-6-112318831590827"
+        }
+      ],
+      "7": [
+        {
+          "name": "Arlene REID",
+          "email": "reid4trustee@gmail.com"
+        },
+        {
+          "name": "Tamara KULY",
+          "phone": "204-287-8820",
+          "email": "votetamarakuly@gmail.com",
+          "website": "https://www.votetamarakuly.com/",
+          "facebook": "https://www.facebook.com/votetamarakuly",
+          "twitter": "https://twitter.com/VoteTamaraKuly"
+        }
+      ],
+      "8": [
+        {
+          "name": "Betty EDEL",
+          "phone": "204-589-5584",
+          "email": "re.electbettyedel@gmail.com",
+          "website": "http://www.re-electbettyedel.com"
+        },
+        {
+          "name": "Laurie KOZAK",
+          "email": "laurie@lauriekozak.ca",
+          "website": "http://www.lauriekozak.ca",
+          "facebook": "https://www.facebook.com/LaurieKozakWard8/",
+          "instagram": "http://www.instagram.com/lauriekozakward8"
+        },
+        {
+          "name": "Patrick ALLARD",
+          "phone": "204-297-5446",
+          "email": "pallard_316@hotmail.com",
+          "facebook": "https://www.facebook.com/profile.php?id=100085968708364"
+        }
+      ],
+      "9": [
+        {
+          "name": "Ann EVANGELISTA",
+          "phone": "204-915-5940",
+          "email": "annevangelistaforschooltrustee@gmail.com",
+          "website": "http://annevangelista.ca/",
+          "facebook": "http://www.facebook.com/annevangelistaforschooltrustee"
+        },
+        {
+          "name": "Dana BROWN"
+        },
+        {
+          "name": "Gagandeep CHAHAL",
+          "phone": "204-891-7812",
+          "email": "gaganchahal2007@yahoo.com"
+        },
+        {
+          "name": "Linda SCHATKOWSKY",
+          "phone": "204-299-8984",
+          "email": "lschatkowsky@outlook.com"
+        },
+        {
+          "name": "Parm DHILLON",
+          "phone": "204-229-9944",
+          "email": "votedhillon@gmail.com"
+        }
+      ]
+    },
+    "Seven Oaks": {
+      "2": [
+        {
+          "name": "Derek DABEE",
+          "phone": "204-779-6101",
+          "email": "ddabee@mymts.net"
+        },
+        {
+          "name": "Diane CAMERON",
+          "phone": "204-334-4902",
+          "email": "dianehelencameron@gmail.com",
+          "facebook": "http://www.facebook.com/DianeCameron",
+          "instagram": "http://www.instagram.com/dianecamerontrustee7oaks"
+        },
+        {
+          "name": "Greg McFARLANE",
+          "phone": "204-479-4941",
+          "email": "ReElectGreg2022@gmail.com",
+          "facebook": "https://www.facebook.com/ReElectGreg2022"
+        },
+        {
+          "name": "Gursharn WANDER",
+          "phone": "204-298-4341",
+          "email": "wanderfor7oaks@gmail.com",
+          "website": "https://www.gursharnwander.ca",
+          "facebook": "https://www.facebook.com/wanderfor7oaks",
+          "instagram": "https://www.instagram.com/wanderfor7oaks/"
+        },
+        {
+          "name": "Jas HARI",
+          "phone": "204-230-9260",
+          "email": "Jasharifor7oaks@gmail.com",
+          "facebook": "https://www.facebook.com/Jas-Hari-for-7-Oaks-103736709174526/",
+          "instagram": "https://instagram.com/jashari_for7oaks?igshid=ZjA0NjI3M2I="
+        },
+        {
+          "name": "Maria SANTOS",
+          "phone": "204-791-9983",
+          "email": "08msantos@gmail.com"
+        }
+      ],
+      "3": [
+        {
+          "name": "Barbra THIESSEN",
+          "phone": "204-782-3102",
+          "email": "mitchika0910@gmail.com"
+        },
+        {
+          "name": "Edward PLOSZAY",
+          "phone": "204-339-1260",
+          "email": "mploszay@yahoo.com"
+        },
+        {
+          "name": "Evan KROSNEY",
+          "phone": "204-250-4387",
+          "email": "evan@evankrosney.ca",
+          "website": "http://www.evankrosney.ca",
+          "facebook": "https://www.facebook.com/evan.krosney/",
+          "twitter": "https://twitter.com/EvanKrosney",
+          "instagram": "https://www.instagram.com/actuallyevankrosney/"
+        },
+        {
+          "name": "Jessica BRIDGES",
+          "email": "jessica.bridges204@gmail.com"
+        },
+        {
+          "name": "Rachhvir DHALIWAL",
+          "phone": "431-334-5822",
+          "email": "rachhvirfor7oaks@rachhvirdhaliwal.ca",
+          "website": "https://rachhvirdhaliwal.ca/",
+          "facebook": "https://www.facebook.com/Rachhvir-Dhaliwal-105190395691761",
+          "instagram": "https://www.instagram.com/rachhvirfor7oaks/"
+        },
+        {
+          "name": "Richard SAWKA",
+          "phone": "204-806-0075",
+          "email": "richard.sawka2022@gmail.com",
+          "facebook": "http://www.facebook.com/richard.sawka.35"
+        },
+        {
+          "name": "Teresa JAWORSKI",
+          "phone": "204-334-3063"
+        }
+      ]
+    },
+    "St. James - Assiniboia": {
+      "Centre": [
+        {
+          "name": "Craig GLENNIE",
+          "phone": "431-293-3889",
+          "email": "voteglennie@gmail.com",
+          "website": "http://www.craigglennie.ca",
+          "facebook": "https://www.facebook.com/cglennietrustee",
+          "twitter": "http://www.twitter.com/Craig_Glennie"
+        },
+        {
+          "name": "Michael CABRAL",
+          "phone": "204-997-5021",
+          "email": "mikecabral4schools@gmail.com"
+        },
+        {
+          "name": "Pierre ATTALLAH",
+          "phone": "204-885-9228",
+          "email": "Pierre@PierreAttallah.pallix.ca",
+          "website": "http://PierreAttallah.pallix.ca"
+        },
+        {
+          "name": "Rachelle WOOD",
+          "phone": "431-887-8683",
+          "email": "Rachelle4Trustee@gmail.com"
+        }
+      ],
+      "West": [
+        {
+          "name": "Cheryl SMUKOWICH",
+          "phone": "204-885-0054",
+          "email": "cheryl.smukowich@gmail.com"
+        },
+        {
+          "name": "Fiona SHIELLS",
+          "phone": "204-590-8352",
+          "email": "fshiells@gmail.com"
+        },
+        {
+          "name": "Gus WATANABE",
+          "phone": "guswatanabesjdsward3@gmail.com",
+          "website": "https://www.guswatanabesjasdward3.com/",
+          "twitter": "https://twitter.com/GusWatanabe"
+        },
+        {
+          "name": "Sandy LETHBRIDGE",
+          "phone": "204-951-9686",
+          "email": "sandylethbridgewestward@shaw.ca"
+        },
+        {
+          "name": "Zachary LINNICK",
+          "phone": "204-807-3422",
+          "email": "zlinnick@gmail.com",
+          "website": "http://www.zacharylinnick.ca"
+        }
+      ],
+      "East": [
+        {
+          "name": "Angela DUNN",
+          "phone": "204-979-7887",
+          "email": "Angelaforstjamesassiniboia@outlook.com",
+          "facebook": "https://www.facebook.com/profile.php?id=100085140161182"
+        },
+        {
+          "name": "Holly HUNTER",
+          "phone": "204-232-8202",
+          "email": "hollyhunter@shaw.ca",
+          "website": "http://www.hollyhunter.ca",
+          "facebook": "https://www.facebook.com/hollyhunter725/",
+          "twitter": "https://twitter.com/hollyhunter725",
+          "linkedin": "https://www.linkedin.com/in/hollyhunter725/",
+          "instagram": "https://www.instagram.com/hollyhunter725/"
+        },
+        {
+          "name": "Leela SCHREYER GARRITY",
+          "email": "leelatrustee@gmail.com"
+        },
+        {
+          "name": "Tara SMITH",
+          "email": "tarafortrustee@gmail.com",
+          "website": "http://Tarasmithfortrustee.ca",
+          "facebook": "https://www.facebook.com/TaraSmithforschooltrustee",
+          "instagram": "https://www.instagram.com/tarasmithfortrustee%20"
+        },
+        {
+          "name": "Vicki REMPEL"
+        }
+      ]
+    },
+    "River East Transcona": {
+      "1": [
+        {
+          "name": "Colleen Carswell - ACCLAIMED",
+          "phone": "204-222-1486",
+          "email": "colleencarswell@gmail.com"
+        },
+        {
+          "name": "Sheri Irwin - ACCLAIMED",
+          "phone": "204-955-9807",
+          "email": "sirwin444@protonmail.com"
+        }
+      ],
+      "2": [
+        {
+          "name": "Amalia SLOBOGIAN",
+          "phone": "204-999-2132",
+          "email": "amalia@freshchalk.ca",
+          "website": "http://www.freshchalk.ca",
+          "facebook": "https://www.facebook.com/amaliaschooltrustee"
+        },
+        {
+          "name": "Curtis BILEWITCH",
+          "phone": "204-697-1769",
+          "email": "cbilewitch@gmail.com",
+          "facebook": "https://www.facebook.com/curtisfortrustee/",
+          "twitter": "http://www.twitter.com/CurtisForRETSD"
+        },
+        {
+          "name": "Glenn BUFFIE",
+          "phone": "204-228-4666",
+          "email": "glenn.buffie@gmail.com",
+          "website": "http://www.glennbuffie4RESTDschooltrustee.com"
+        },
+        {
+          "name": "Rod GIESBRECHT",
+          "phone": "204-661-5984",
+          "email": "rodney11@mymts.net"
+        },
+        {
+          "name": "Sheri HANSON",
+          "phone": "204-915-7313",
+          "email": "sdhanson@shaw.ca",
+          "facebook": "https://www.facebook.com/SheriHansonTrustee"
+        }
+      ],
+      "3": [
+        {
+          "name": "Brianne GOERTZEN",
+          "phone": "204-955-6782",
+          "email": "votebrianne@gmail.com",
+          "website": "http://www.briannegoertzen.ca",
+          "facebook": "http://www.facebook.com/electbrianne",
+          "twitter": "http://www.twitter.com/BriGoertzen"
+        },
+        {
+          "name": "Keith MORRISON",
+          "phone": "204-795-3357",
+          "email": "keithmorrison88@outlook.com",
+          "website": "http://www.keithmorrison88.ca",
+          "facebook": "https://www.facebook.com/profile.php?id=100082302651308",
+          "twitter": "http://www.twitter.com/KeithMorrison88",
+          "instagram": "http://www.instagram.com/morrison4ward3"
+        },
+        {
+          "name": "Matthew PARKINSON",
+          "phone": "204-583-6998",
+          "email": "mparkins711@live.com",
+          "website": "http://www.matthewforward3.ca"
+        }
+      ],
+      "4": [
+        {
+          "name": "Brenda BAGE",
+          "phone": "204-221-2951",
+          "email": "brendabage@gmail.com",
+          "facebook": "https://www.facebook.com/BageForRETSD",
+          "twitter": "https://twitter.com/BageForRETSD",
+          "instagram": "http://www.instagram.com/bageforretsd"
+        },
+        {
+          "name": "Peter KOTYK",
+          "phone": "204-668-4181"
+        },
+        {
+          "name": "Rob GIGIEL"
+        },
+        {
+          "name": "Susan OLYNIK",
+          "phone": "204-661-6440",
+          "email": "susan168823@gmail.com",
+          "facebook": "https://www.facebook.com/susanolyniktrustee/",
+          "linkedin": "https://ca.linkedin.com/in/susan-olynik-888a5b26"
+        }
+      ]
+    },
+    "Louis Riel": {
+      "1": [
+        {
+          "name": "Amie GREEN",
+          "email": "amiefortrustee@gmail.com",
+          "website": "http://www.voteamie.org"
+        },
+        {
+          "name": "Cindy TURNER",
+          "phone": "204-233-7507",
+          "email": "cjturner@mts.net",
+          "facebook": "http://www.facebook.com/voteforcindyturner"
+        },
+        {
+          "name": "Francine CHAMPAGNE",
+          "email": "francine4trustee@hotmail.com"
+        },
+        {
+          "name": "Jason KOCHIE",
+          "email": "jasonkochietrustee@gmail.com"
+        },
+        {
+          "name": "Michael YEO",
+          "email": "mike@theyeo.com",
+          "website": "http://michaelyeo.ca/"
+        },
+        {
+          "name": "Tom PARKER",
+          "phone": "204-298-9249"
+        }
+      ],
+      "2": [
+        {
+          "name": "Chris SIGURDSON",
+          "phone": "204-470-8713",
+          "email": "sigurd01@shaw.ca"
+        },
+        {
+          "name": "Irene NORDHEIM",
+          "phone": "204-290-3739",
+          "email": "nordheimirene@gmail.com",
+          "website": "http://www.votenordheim.com"
+        },
+        {
+          "name": "Robert PAGE",
+          "phone": "204-541-1303",
+          "email": "robertwpage@hotmail.com"
+        }
+      ],
+      "3": [
+        {
+          "name": "Brent AMOS",
+          "phone": "204-291-6598",
+          "email": "brent.amos@mymts.net"
+        },
+        {
+          "name": "Darlene GERRIOR",
+          "phone": "204-293-3621",
+          "email": "darlenegerrior@gmail.com",
+          "facebook": "https://m.facebook.com/people/Darlene-Gerrior/100083972238130/?comment_id=Y29tbWVudDo1NTM5NDcxMzk2MTE1MTE4XzQ3OTY3Mzg0NzMyMjA5MA%3D%3D",
+          "twitter": "https://twitter.com/darlenegerrior?s=21&t=Aj8BZpsQFW_Lcef3mwsRBA",
+          "instagram": "https://instagram.com/darlenegfortrusteeward3?igshid=NjZiMGI4OTY="
+        },
+        {
+          "name": "Ryan PALMQUIST",
+          "phone": "204-202-6770",
+          "email": "ryan.m.palmquist@gmail.com",
+          "facebook": "https://www.facebook.com/RyanPalmquistStVital/"
+        },
+        {
+          "name": "Sandy NEMETH",
+          "phone": "204-230-6475",
+          "email": "snemeth8@mymts.net",
+          "facebook": "http://www.facebook.com/sandy.nemeth.1",
+          "twitter": "http://www.twitter.com/sandynemeth",
+          "linkedin": "https://ca.linkedin.com/in/sandy-nemeth-26899488%20%20",
+          "instagram": "http://www.instagram.com/sandynemethward3"
+        },
+        {
+          "name": "Selina BIEBER",
+          "email": "selinabieber@gmx.ca",
+          "website": "http://www.selinabieber.ca"
+        }
+      ],
+      "4": [
+        {
+          "name": "Chipalo Simunyola - ACCLAIMED",
+          "phone": "204-688-7479",
+          "email": "csimunyola@gmail.com"
+        },
+        {
+          "name": "Pamela Kolochuk - ACCLAIMED",
+          "phone": "204-297-5339",
+          "email": "pamela.kolochuk@shaw.ca"
+        }
+      ]
+    },
+    "Pembina Trails": {
+      "1": [
+        {
+          "name": "Craig STAHLKE",
+          "phone": "204-781-5622",
+          "email": "craig.stahlke.trustee@gmail.com",
+          "website": "http://www.stahlkefortrustee.com",
+          "twitter": "https://twitter.com/craigfortrustee"
+        },
+        {
+          "name": "Dick EASTLAND",
+          "email": "trusteedick151@gmail.com"
+        },
+        {
+          "name": "Donald BENSON",
+          "phone": "204-955-5042",
+          "email": "dbenson57@shaw.ca"
+        },
+        {
+          "name": "Linda KARN",
+          "phone": "204-888-5974",
+          "email": "Linda.Karn@proton.me",
+          "website": "https://lindakarn5.wixsite.com/trustee"
+        },
+        {
+          "name": "Nic DEVINE",
+          "phone": "204-771-2526",
+          "email": "maraisroad@gmail.com"
+        },
+        {
+          "name": "Stu NIXON",
+          "phone": "204-226-7141",
+          "email": "smenixon@gmail.com",
+          "website": "https://stunixon.wordpress.com/"
+        }
+      ],
+      "2": [
+        {
+          "name": "Christine JOLLY",
+          "phone": "431-305-5193",
+          "email": "jollychristine57@gmail.com"
+        },
+        {
+          "name": "David JOHNSON",
+          "phone": "204-228-5858",
+          "email": "davidjohnson623@gmail.com",
+          "website": "http://www.davidjohnson2022.ca"
+        },
+        {
+          "name": "Tim JOHNSON",
+          "phone": "204.290.6091",
+          "email": "Reelecttimjohnson2022@gmail.com"
+        },
+        {
+          "name": "Todd McDOUGALL",
+          "phone": "204-333-3385",
+          "email": "toddmcdougall4trustee@gmail.com",
+          "facebook": "https://www.facebook.com/profile.php?id=100086378280975"
+        }
+      ],
+      "3": [
+        {
+          "name": "Alicia BECKER",
+          "phone": "204-261-7602",
+          "email": "beck01@mymts.net"
+        },
+        {
+          "name": "Cindy NACHTIGALL",
+          "phone": "204-269-3181",
+          "email": "cindyforschooltrustee@gmail.com",
+          "website": "http://www.votecindy.ca",
+          "facebook": "https://www.facebook.com/cindynachtigallschooltrustee/",
+          "twitter": "https://twitter.com/cindynachtigall",
+          "linkedin": "https://www.linkedin.com/in/cindy-nachtigall"
+        },
+        {
+          "name": "Jasmine BRAR",
+          "phone": "204-297-9000",
+          "email": "electjasminebrar@gmail.com",
+          "facebook": "http://www.Facebook.com/JasmineBrar",
+          "twitter": "http://www.twitter.com/jasminebrar12",
+          "linkedin": "https://www.linkedin.com/in/jasmine-brar-7b0741114",
+          "instagram": "http://www.instagram.com/jasminebrar12%20"
+        },
+        {
+          "name": "Saima AZIZ",
+          "phone": "204-939-1972",
+          "facebook": "https://www.facebook.com/profile.php?id=100085267069904",
+          "linkedin": "https://www.linkedin.com/in/saima-aziz-53a04081/"
+        }
+      ]
+    }
+  }
+}

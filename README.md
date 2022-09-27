@@ -5,6 +5,7 @@ This is an Express application that takes a latitude and longitude and returns t
 * Winnipeg city council ward/councillor
 * school division/ward/trustee(s)
 * Manitoba electoral division/MLA
+* candidate information for 2022 municipal election
 
 Example query (for City Hall, 510 Main):
 

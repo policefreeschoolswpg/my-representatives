@@ -21,6 +21,24 @@ it('responds to a location query', async done => {
     },
   ]);
 
+  expect(response.body.schools.candidates2022).toEqual([{
+    "name": "Jamie BONNER",
+    "email": "info@jamiebonner.com",
+  }, {
+    "name": "Luanne KARN",
+    "phone": "204-999-8639",
+    "email": "luannekarn@luannekarnwpg.com",
+    "website": "https://www.luannekarnwpg.com/",
+    "facebook": "https://www.facebook.com/groups/1491255174644419",
+    "twitter": "https://twitter.com/KarnLuanne"
+  }, {
+    "name": "Perla JAVATE",
+    "phone": "204-955-5603",
+    "email": "perla@perlajavate.ca",
+    "website": "http://www.perlajavate.ca",
+    "facebook": "https://www.facebook.com/Perla-Javate-for-WSD-School%20Trustee-Ward-6-112318831590827"
+  }]);
+
   expect(response.body.council.ward).toBe('Point Douglas');
 
   expect(response.body.council.councillor).toEqual({
@@ -29,6 +47,26 @@ it('responds to a location query', async done => {
     email: 'VSantos@winnipeg.ca',
     photo: '/photos/council/Santos.png',
   });
+
+  expect(response.body.council.candidates2022).toEqual([{
+    "name": "Joe PEREIRA",
+    "phone": "204-782-1047",
+    "email": "Joe.Pereira@shaw.ca",
+    "website": "http://www.votejoepereira.ca",
+    "facebook": "https://www.facebook.com/profile.php?id=100007148748365",
+    "twitter": "https://mobile.twitter.com/JoeApereira",
+    "linkedin": "https://ca.linkedin.com/in/joe-pereira-43b8087b",
+    "instagram": "https://www.instagram.com/joepereira3423/",
+  }, {
+    "name": "Moe ELTASSI",
+    "phone": "204-430-2976",
+    "email": "info@votemoeeltassi.com",
+    "website": "http://votemoeeltassi.com",
+  }, {
+    "name": "Vivian SANTOS",
+    "email": "info@vivian4pointdouglas.ca",
+    "website": "http://www.vivian4pointdouglas.ca",
+  }]);
 
   expect(response.body.manitoba.division).toBe('Point Douglas');
 

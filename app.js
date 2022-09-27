@@ -48,6 +48,8 @@ const manitobaDivisionLookup = new GeoJsonGeometriesLookup(manitobaDivisions);
 
 const manitobaContacts = JSON.parse(fs.readFileSync('./data/manitoba-contacts.json'));
 
+const municipalElectionCandidates2022 = JSON.parse(fs.readFileSync('./data/municipal-election-candidates-2022.json'));
+
 app.use(compression());
 
 app.use(cors());
@@ -99,7 +101,8 @@ app.get('/:query', async ({ params: { query }, query: queryParameters }, res) =>
           email: trustee['EMAIL'],
           phone: trustee['PHONE'],
           photo: `/photos/schools/${trustee['PHOTO NAME']}`,
-        }))
+        })),
+      candidates2022: municipalElectionCandidates2022.schools[properties.division][properties.ward]
     };
 
     const queryPostalCode = queryParameters['postal-code'];
@@ -127,6 +130,7 @@ app.get('/:query', async ({ params: { query }, query: queryParameters }, res) =>
         phone: properties.phone,
         photo,
       },
+      candidates2022: municipalElectionCandidates2022.council[properties.name]
     };
 
     const contact = councilContacts.find(c => c.person === properties.councillor);
