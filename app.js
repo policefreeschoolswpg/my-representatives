@@ -40,7 +40,7 @@ const trusteeContacts = JSON.parse(fs.readFileSync('./data/school-division-conta
 const councilWards = JSON.parse(fs.readFileSync('./data/council-wards.geojson'));
 const councilWardLookup = new GeoJsonGeometriesLookup(councilWards);
 
-const councilContacts = JSON.parse(fs.readFileSync('./data/council-contacts.json'));
+const councilContacts = JSON.parse(fs.readFileSync('./data/council-contacts.json')).filter(contact => contact.current_council);
 const councilPhotos = JSON.parse(fs.readFileSync('./data/council-photos.json'));
 
 const manitobaDivisions = JSON.parse(fs.readFileSync('./data/manitoba-electoral-divisions.geojson'));
@@ -134,7 +134,7 @@ app.get('/:query', async ({ params: { query }, query: queryParameters }, res) =>
     };
 
     const contact = councilContacts.find(c => c.person === properties.councillor);
-    const emailLink = contact.email_link;
+    const emailLink = contact.email_link_english;
     const emailLinkURL = new URL(emailLink);
     const emailUsername = emailLinkURL.searchParams.get('Recipient');
     const email = `${emailUsername}@winnipeg.ca`;

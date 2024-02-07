@@ -47,7 +47,7 @@ it('responds to a location query', async done => {
     name: 'Vivian Santos',
     phone: '204-986-8401',
     email: 'VSantos@winnipeg.ca',
-    photo: '/photos/council/Santos.png',
+    photo: '/photos/council/santos2.jpg',
   });
 
   expect(response.body.council.candidates2022).toEqual([{
@@ -92,7 +92,7 @@ it('parses the councillor email properly', async done => {
     name: 'Janice Lukes',
     phone: '204-986-6824',
     email: 'Jlukes@winnipeg.ca',
-    photo: '/photos/council/lukes3.jpg',
+    photo: '/photos/council/lukes4.jpg',
   });
 
   done();
